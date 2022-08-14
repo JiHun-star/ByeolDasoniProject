@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: scroll;
+	-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
+	scrollbar-width: none; /* Firefox 스크롤바 제거 */
+}
+
+body::-webkit-scrollbar {
+	display: none; /* Chrome 스크롤바 제거 */
+}
+
+/* 포인트 제목 */
+@font-face {
+	font-family: 'PyeongChangPeace-Light';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2')
+		format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* 제목 */
+@font-face {
+	font-family: 'GyeonggiTitleM';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 본문 */
+@font-face {
+	font-family: 'MapoFlowerIsland';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: 'PyeongChangPeace-Light';
+	font-size: 5em;
+}
+
+h2 {
+	font-family: 'GyeonggiTitleM';
+	font-size: 1.4em;
+}
+
+p {
+	font-family: 'MapoFlowerIsland';
+	font-size: 1.2em;
+}
