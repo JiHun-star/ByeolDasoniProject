@@ -6,7 +6,7 @@
   import "../app.css"; //tailwindcss
 </script>
 
-<h1 class="font-serif ...">HOME</h1>
-<p class="font-mono ...">메인 홈입니다.</p>
+<h1>HOME</h1>
+<p>메인 홈입니다.</p>
 
 <style></style>
