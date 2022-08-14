@@ -1,5 +1,12 @@
+<svelte:head>
+  <title>Byeol Dasoni's projects : 별다소니의 기획 및 작사 소개</title>
+</svelte:head>
+
 <script>
   import "../app.css"; //tailwindcss
 </script>
-<h1 class="font-serif ...">Welcome to SvelteKit</h1>
-<p class="font-mono ...">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<h1 class="font-serif ...">HOME</h1>
+<p class="font-mono ...">메인 홈입니다.</p>
+
+<style></style>
