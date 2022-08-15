@@ -9,6 +9,8 @@
 
 <section>
 	<h1>별다소니</h1>
+
+	<!-- sns -->
 	<aside>
 		<a
 			href="https://www.youtube.com/channel/UCDn4683YUTBdzSVRRrpZLYQ"
@@ -24,6 +26,8 @@
 			<i class="fa-brands fa-instagram" />
 		</a>
 	</aside>
+
+	<!-- text -->
 	<p class="textbox">
 		이해하기 쉬운 단어로,
 		<br /><br />선율에 담긴 감정과 어우러지면서,
@@ -35,13 +39,19 @@
 
 <style>
 	@media screen and (min-width: 320px) {
+		h1 {
+			text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.907);
+		}
+
 		section {
 			height: 100vh;
-			padding-top: 8em;
+			padding-top: 12em;
 
-			background-image: url('../../static/bg.jpg');
+			background-image: url('mbg.png');
 			background-size: cover;
 			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
 
 			text-align: center;
 			color: #fafaf9;
@@ -53,7 +63,7 @@
 			display: inline-block;
 
 			border-radius: 12px;
-			background-color: #fafaf9;
+			background-color: #fafaf9e4;
 			color: #1c1917;
 			font-size: 1.5em;
 		}
@@ -78,6 +88,7 @@
 			padding-top: 20em;
 			padding-right: 10em;
 			text-align: right;
+			background-image: url('wbg.png');
 		}
 
 		aside {

@@ -1,6 +1,7 @@
 <script>
 	import { fade, fly } from 'svelte/transition';
 
+	//nav버튼
 	let visible = false;
 	function navbtn() {
 		visible = !visible;
@@ -20,7 +21,7 @@
 					current = '1';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 1000 }}
+				in:fly={{ y: -30, duration: 2000 }}
 				out:fade><h2>소개</h2></a
 			>
 			<a
@@ -30,7 +31,7 @@
 					current = '2';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 1300 }}
+				in:fly={{ y: -30, duration: 2200 }}
 				out:fade><h2>팀 기획</h2></a
 			>
 			<a
@@ -40,7 +41,7 @@
 					current = '3';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 1600 }}
+				in:fly={{ y: -30, duration: 2400 }}
 				out:fade><h2>합작 기획</h2></a
 			>
 			<a
@@ -50,7 +51,7 @@
 					current = '4';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 1900 }}
+				in:fly={{ y: -30, duration: 2600 }}
 				out:fade><h2>개인 참여작</h2></a
 			>
 		{/if}
@@ -69,7 +70,7 @@
 
 			color: #fafaf9;
 			text-align: center;
-
+			background: linear-gradient(45deg, #000 0%, #1c1917 100%);
 			background-color: #1c1917;
 			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.429);
 		}
@@ -79,7 +80,7 @@
 		}
 
 		nav a:hover {
-			color: #fbbf24;
+			color: #fcd34d;
 			transition: all 800ms ease;
 		}
 
@@ -100,7 +101,7 @@
 		}
 
 		.active {
-			color: #fbbf24;
+			color: #fcd34d;
 		}
 	}
 
