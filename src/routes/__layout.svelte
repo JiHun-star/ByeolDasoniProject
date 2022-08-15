@@ -71,6 +71,7 @@
 			text-align: center;
 
 			background-color: #1c1917;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.429);
 		}
 		nav {
 			padding: 0.3em;
@@ -117,6 +118,7 @@
 		header {
 			width: 15em;
 			background: none;
+			box-shadow: none;
 		}
 	}
 </style>
