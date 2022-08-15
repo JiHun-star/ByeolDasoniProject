@@ -17,10 +17,12 @@
 	let current = '1';
 </script>
 
+<!-- loading page -->
 {#if !loaded}
 	<div class="loading">로딩중...</div>
 {/if}
 
+<!-- navigation bar -->
 <header>
 	<nav class="flex flex-col">
 		<button class="open" on:click={navbtn}>M E N U</button>
