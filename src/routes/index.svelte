@@ -7,12 +7,28 @@
 </svelte:head>
 
 <section>
-	<h1>HOME</h1>
+	<h1>별다소니</h1>
 	<p>메인 홈입니다.</p>
 </section>
 
 <style>
-	p {
-		padding: 20vw;
+	@media screen and (min-width: 320px) {
+		section {
+			padding-top: 6em;
+			text-align: center;
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		section {
+			padding-top: 8em;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		section {
+			padding-top: 10em;
+			text-align: right;
+		}
 	}
 </style>
