@@ -39,7 +39,7 @@
 			height: 100vh;
 			padding-top: 8em;
 
-			background-image: url('bg.jpg');
+			background-image: url('/static/bg.jpg');
 			background-size: cover;
 			background-attachment: fixed;
 
