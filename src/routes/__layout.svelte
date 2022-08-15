@@ -1,5 +1,12 @@
 <script>
+	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
+	//로딩화면
+	let loaded = false;
+
+	onMount(() => {
+		loaded = true;
+	});
 
 	//nav버튼
 	let visible = false;
@@ -9,6 +16,10 @@
 
 	let current = '1';
 </script>
+
+{#if !loaded}
+	<div class="loading">로딩중...</div>
+{/if}
 
 <header>
 	<nav class="flex flex-col">
@@ -21,7 +32,7 @@
 					current = '1';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 2000 }}
+				in:fly={{ y: -30, duration: 1000 }}
 				out:fade><h2>소개</h2></a
 			>
 			<a
@@ -31,7 +42,7 @@
 					current = '2';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 2200 }}
+				in:fly={{ y: -30, duration: 1000, delay: 200 }}
 				out:fade><h2>팀 기획</h2></a
 			>
 			<a
@@ -41,7 +52,7 @@
 					current = '3';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 2400 }}
+				in:fly={{ y: -30, duration: 1000, delay: 400 }}
 				out:fade><h2>합작 기획</h2></a
 			>
 			<a
@@ -51,16 +62,29 @@
 					current = '4';
 					navbtn();
 				}}
-				in:fly={{ y: -30, duration: 2600 }}
+				in:fly={{ y: -30, duration: 1000, delay: 600 }}
 				out:fade><h2>개인 참여작</h2></a
 			>
 		{/if}
 	</nav>
 </header>
+
 <slot />
 
 <style>
 	@media screen and (min-width: 320px) {
+		.loading {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			display: grid;
+			place-items: center;
+			background-color: #fff;
+			z-index: 999;
+		}
+
 		header {
 			width: 100vw;
 			position: fixed;
@@ -74,6 +98,7 @@
 			background-color: #1c1917;
 			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.429);
 		}
+
 		nav {
 			padding: 0.3em;
 			gap: 0.3em;
