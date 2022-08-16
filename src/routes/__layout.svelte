@@ -1,4 +1,6 @@
 <script>
+	import '../app.css'; //tailwindcss
+	import '@fortawesome/fontawesome-free/js/all.min.js'; //fontawesome
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	//로딩화면
@@ -19,7 +21,7 @@
 
 <!-- loading page -->
 {#if !loaded}
-	<div class="loading">로딩중...</div>
+	<div class="loading"><i class="fa-solid fa-star-of-life fa-3x fa-spin" /></div>
 {/if}
 
 <!-- navigation bar -->
@@ -81,10 +83,13 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
+			z-index: 999;
+
 			display: grid;
 			place-items: center;
-			background-color: #fff;
-			z-index: 999;
+
+			background-color: #fafaf9;
+			color: #1c1917;
 		}
 
 		header {

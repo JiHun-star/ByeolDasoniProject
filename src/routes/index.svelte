@@ -1,6 +1,4 @@
 <script>
-	import '../app.css'; //tailwindcss
-	import '@fortawesome/fontawesome-free/js/all.min.js'; //fontawesome
 </script>
 
 <svelte:head>
@@ -55,6 +53,14 @@
 
 			text-align: center;
 			color: #fafaf9;
+
+			overflow: scroll;
+			-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
+			scrollbar-width: none; /* Firefox 스크롤바 제거 */
+		}
+
+		section::-webkit-scrollbar {
+			display: none; /* Chrome 스크롤바 제거 */
 		}
 
 		aside {
