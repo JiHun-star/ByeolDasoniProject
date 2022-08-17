@@ -4,19 +4,22 @@
 <svelte:head>
 	<title>팀 기획</title>
 </svelte:head>
+
 <main>
 	<section>1</section>
 	<section>2</section>
-	<section>3</section>
-	<section>4</section>
 </main>
 
 <style>
 	@media screen and (min-width: 320px) {
 		/* 부모 App */
 		main {
+			width: 100vw;
+			height: 100vh;
+
 			scroll-snap-type: y mandatory;
 			overflow-y: scroll;
+
 			-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
 			scrollbar-width: none; /* Firefox 스크롤바 제거 */
 		}
