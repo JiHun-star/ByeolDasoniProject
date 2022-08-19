@@ -1,12 +1,13 @@
 <script lang="ts">
+	import Carousel from '../components/carousel.svelte';
+	import { binkan, yeoreum, byeoljari, dongyang } from '$lib/youtube';
 </script>
 
 <svelte:head>
 	<title>합작 기획</title>
 </svelte:head>
 
-<h1>합작 기획</h1>
-<p>별다소니가 기획한 컴필레이션 합작입니다.</p>
+<Carousel images={byeoljari} />
 
 <style>
 	@media screen and (min-width: 320px) {
