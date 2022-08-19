@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'GyeonggiTitleM';
+	font-family: 'PyeongChangPeace-Light';
 	font-size: 1.4em;
 }
 
@@ -69,5 +69,9 @@ p {
 }
 
 iframe {
+	margin: 0 auto;
 	aspect-ratio: 16/9;
+	border: 3px solid #fafaf9;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.907);
 }

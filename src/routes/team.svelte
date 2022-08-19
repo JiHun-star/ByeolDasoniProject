@@ -43,7 +43,7 @@
 		<Saos animation={'fade-in 3s ease-out both'}>
 			<h1 class="teamName">project.MEIKA</h1>
 			<p class="teamexplain">
-				곡: 엘디큐 / 믹싱: 포지티브 / 가사: 별다소니<br />조교·일러스트·영상: 피오테오
+				곡: 엘디큐 / 가사: 별다소니 / 믹싱: 포지티브<br />조교·일러스트·영상: 피오테오
 				<br /><br />
 				<small>
 					메이카 프로젝트는 메이카 히메와 메이카 미코토의 노래를 통해
@@ -104,7 +104,6 @@
 		}
 
 		iframe {
-			margin: 0 auto;
 			width: 80vw;
 		}
 
@@ -112,12 +111,14 @@
 			margin-top: 5em;
 			font-size: 1.8em;
 			text-align: center;
+			text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.907);
 		}
 
 		.teamexplain {
-			margin: 1em 0;
+			margin: 1em;
 			font-size: 1em;
 			text-align: center;
+			padding-bottom: 2em;
 		}
 
 		.songname {
@@ -136,11 +137,11 @@
 		}
 
 		iframe {
-			margin: 0 auto;
 			width: 25vw;
 		}
 
 		.teamName {
+			margin-top: 3.5em;
 			margin-right: 4em;
 			font-size: 3em;
 			text-align: right;
