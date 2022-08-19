@@ -1,4 +1,7 @@
-<script>
+<script lang="ts">
+	import Saos from 'saos'; //scroll animaiton
+
+	import { byeolbada, meika } from '$lib/youtube';
 </script>
 
 <svelte:head>
@@ -6,18 +9,77 @@
 </svelte:head>
 
 <main>
-	<section>1</section>
-	<section>2</section>
+	<section>
+		<Saos animation={'fade-in 3s ease-out both'}>
+			<h1 class="teamName">별의 바다에 가라앉고 있어</h1>
+			<p class="teamexplain">
+				곡: 다삥이 / 가사: 별다소니 / 조교: 피오테오<br />일러스트: 스즈란 / 영상: 퍼플슘
+				<br /><br />
+				<small>
+					상처를 통해 우리는 무언가를 만들어 내고,
+					<br />그 모습은 마치 타오르는 별처럼 아름답습니다.
+					<br />창작자인 당신에게 이 노래가 작은 위로가 되길 바라고 있습니다.
+				</small>
+			</p>
+
+			<div class="flex flex-wrap flex-col lg:flex-row justify-around">
+				{#each byeolbada as yt}
+					<article>
+						<iframe
+							src="https://www.youtube.com/embed/{yt.src}"
+							title={yt.name}
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						/>
+						<h2 class="songname">✨ {yt.name} ✨</h2>
+					</article>
+				{/each}
+			</div>
+		</Saos>
+	</section>
+
+	<section>
+		<Saos animation={'fade-in 3s ease-out both'}>
+			<h1 class="teamName">project.MEIKA</h1>
+			<p class="teamexplain">
+				곡: 엘디큐 / 믹싱: 포지티브 / 가사: 별다소니<br />조교·일러스트·영상: 피오테오
+				<br /><br />
+				<small>
+					메이카 프로젝트는 메이카 히메와 메이카 미코토를 이용하여,
+					<br />버드나무, 매화, 꽈리, 용담을 소재로 각각의 꽃말을 노래를 당신에게 전합니다.
+				</small>
+			</p>
+
+			<div class="flex flex-wrap flex-col lg:flex-row justify-around">
+				{#each meika as yt}
+					<article>
+						<iframe
+							src="https://www.youtube.com/embed/{yt.src}"
+							title={yt.name}
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						/>
+						<h2 class="songname">🌸 {yt.name} 🌸</h2>
+					</article>
+				{/each}
+			</div>
+		</Saos>
+	</section>
 </main>
 
 <style>
 	@media screen and (min-width: 320px) {
-		/* 부모 App */
 		main {
+			margin: 0;
+			padding: 0;
+
 			width: 100vw;
 			height: 100vh;
 
-			scroll-snap-type: y mandatory;
+			background-color: #312e81;
+
 			overflow-y: scroll;
 
 			-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
@@ -28,27 +90,36 @@
 			display: none; /* Chrome 스크롤바 제거 */
 		}
 
-		/* 자식 section들 */
 		section {
-			display: flex;
-			justify-content: center;
-			align-items: center;
 			width: 100vw;
-			height: 100vh;
-			scroll-snap-align: start;
-			color: #fff;
-			font-size: 3rem;
-			font-weight: bold;
+			color: #fafaf9;
 		}
 
-		/* 홀수번째 자식 */
-		section:nth-child(odd) {
-			background-color: cadetblue;
+		article {
+			margin: 1.8em;
 		}
 
-		/* 짝수번째 자식 */
-		section:nth-child(even) {
-			background-color: lightcoral;
+		iframe {
+			margin: 0 auto;
+			width: 80vw;
+		}
+
+		.teamName {
+			margin-top: 5em;
+			font-size: 1.8em;
+			text-align: center;
+		}
+
+		.teamexplain {
+			margin: 1em 0;
+			font-size: 1em;
+			text-align: center;
+		}
+
+		.songname {
+			margin: 1em 0;
+			font-size: 1.2em;
+			text-align: center;
 		}
 	}
 
@@ -56,5 +127,25 @@
 	}
 
 	@media screen and (min-width: 1024px) {
+		article {
+			margin: 4.5em;
+		}
+
+		iframe {
+			margin: 0 auto;
+			width: 25vw;
+		}
+
+		.teamName {
+			margin-right: 4em;
+			font-size: 3em;
+			text-align: right;
+		}
+
+		.teamexplain {
+			margin: 2em 10em;
+			font-size: 1.3em;
+			text-align: right;
+		}
 	}
 </style>

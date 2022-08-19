@@ -1,8 +1,9 @@
-<script>
+<script lang="ts">
 	import '../app.css'; //tailwindcss
 	import '@fortawesome/fontawesome-free/js/all.min.js'; //fontawesome
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
+
 	//로딩화면
 	let loaded = false;
 
@@ -76,6 +77,16 @@
 <slot />
 
 <style>
+	/* Saos animation */
+	@keyframes -global-fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
 	@media screen and (min-width: 320px) {
 		.loading {
 			position: fixed;
@@ -88,8 +99,8 @@
 			display: grid;
 			place-items: center;
 
-			background-color: #fafaf9;
-			color: #1c1917;
+			background-color: #1c1917;
+			color: #fafaf9;
 		}
 
 		header {

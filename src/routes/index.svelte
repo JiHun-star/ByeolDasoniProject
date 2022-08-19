@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Byeol Dasoni's projects : 별다소니의 기획 및 작사 소개</title>
 </svelte:head>
