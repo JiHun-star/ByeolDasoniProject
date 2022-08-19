@@ -1,10 +1,11 @@
 <script lang="ts">
 	import '../app.css'; //tailwindcss
 	import '@fortawesome/fontawesome-free/js/all.min.js'; //fontawesome
-	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 
 	//로딩화면
+	import { onMount } from 'svelte';
+
 	let loaded = false;
 
 	onMount(() => {
@@ -13,11 +14,16 @@
 
 	//nav버튼
 	let visible = false;
+
 	function navbtn() {
 		visible = !visible;
 	}
 
 	let current = '1';
+
+	//page transition
+	import { page } from '$app/stores';
+	import Page from '../components/page.svelte';
 </script>
 
 <!-- loading page -->
@@ -74,7 +80,9 @@
 	</nav>
 </header>
 
-<slot />
+<Page url={$page.url}>
+	<slot />
+</Page>
 
 <style>
 	/* Saos animation */
