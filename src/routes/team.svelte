@@ -10,7 +10,7 @@
 
 <main>
 	<section>
-		<Saos animation={'fade-in 3s ease-out both'}>
+		<Saos animation={'fade-in 3s ease-out both'} once>
 			<h1 class="teamName">별의 바다에 가라앉고 있어</h1>
 			<p class="teamexplain">
 				곡: 다삥이 / 가사: 별다소니 / 조교: 피오테오<br />일러스트: 스즈란 / 영상: 퍼플슘
@@ -40,7 +40,7 @@
 	</section>
 
 	<section>
-		<Saos animation={'fade-in 3s ease-out both'}>
+		<Saos animation={'fade-in 3s ease-out both'} once>
 			<h1 class="teamName">project.MEIKA</h1>
 			<p class="teamexplain">
 				곡: 엘디큐 / 가사: 별다소니 / 믹싱: 포지티브<br />조교·일러스트·영상: 피오테오
