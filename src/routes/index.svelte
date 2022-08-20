@@ -40,7 +40,7 @@
 
 		section {
 			height: 100vh;
-			padding-top: 12em;
+			padding-top: 15vh;
 
 			background-image: url('../img/mbg.png');
 			background-size: cover;
@@ -61,14 +61,14 @@
 		}
 
 		aside {
-			margin-top: 0.5em;
+			margin-top: 2em;
 			padding: 10px 33px;
 			display: inline-block;
 
 			border-radius: 12px;
 			background-color: #fafaf9e4;
 			color: #1c1917;
-			font-size: 1.5em;
+			font-size: 1.3em;
 		}
 
 		aside a {
@@ -82,14 +82,14 @@
 
 	@media screen and (min-width: 768px) {
 		section {
-			padding-top: 8em;
+			padding-top: 20vh;
 		}
 	}
 
 	@media screen and (min-width: 1024px) {
 		section {
-			padding-top: 20em;
-			padding-right: 10em;
+			padding-top: 35vh;
+			padding-right: 10vw;
 			text-align: right;
 			background-image: url('../img/wbg.png');
 		}

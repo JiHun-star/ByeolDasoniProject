@@ -11,7 +11,7 @@
 <main>
 	<!-- 겨울 별자리 합작 -->
 	<section>
-		<Saos animation={'fade-in 4s ease-out both'}>
+		<Saos animation={'fade-in 4s ease-out both'} once>
 			<h1 class="cotitle">겨울 별자리 합작</h1>
 			<Carousel images={byeoljari} />
 			<p class="cotext block lg:hidden">
@@ -24,7 +24,7 @@
 
 	<!-- 시유 동양풍 합작 -->
 	<section>
-		<Saos animation={'fade-in 4s ease-out both'}>
+		<Saos animation={'fade-in 4s ease-out both'} once>
 			<h1 class="cotitle">시유 동양풍 합작</h1>
 			<Carousel images={dongyang} />
 			<p class="cotext block lg:hidden">
@@ -51,6 +51,12 @@
 
 			-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
 			scrollbar-width: none; /* Firefox 스크롤바 제거 */
+
+			background-image: url(../img/bg3.png);
+			background-attachment: fixed;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 
 		main::-webkit-scrollbar {
@@ -68,7 +74,7 @@
 		}
 
 		.cotitle {
-			padding-top: 5em;
+			padding-top: 22vh;
 			padding-bottom: 1em;
 			font-size: 2em;
 			text-align: center;
@@ -85,7 +91,7 @@
 	}
 	@media screen and (min-width: 1024px) {
 		.cotitle {
-			padding-top: 2.5em;
+			padding-top: 10vh;
 			padding-bottom: 1em;
 			font-size: 3em;
 		}

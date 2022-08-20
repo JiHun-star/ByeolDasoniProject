@@ -100,7 +100,7 @@
 		}
 
 		article {
-			margin: 1.8em;
+			margin: 2vh;
 		}
 
 		iframe {
@@ -108,7 +108,7 @@
 		}
 
 		.teamName {
-			margin-top: 5em;
+			margin-top: 20vh;
 			font-size: 1.8em;
 			text-align: center;
 			text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.907);
@@ -133,7 +133,7 @@
 			background-image: url('../img/wbg2.png');
 		}
 		article {
-			margin: 4.5em;
+			margin: 4vw;
 		}
 
 		iframe {
@@ -141,14 +141,14 @@
 		}
 
 		.teamName {
-			margin-top: 3.5em;
-			margin-right: 4em;
+			margin-top: 18vh;
+			margin-right: 11vw;
 			font-size: 3em;
 			text-align: right;
 		}
 
 		.teamexplain {
-			margin: 2em 10em;
+			margin: 2em 11vw;
 			font-size: 1.3em;
 			text-align: right;
 		}
