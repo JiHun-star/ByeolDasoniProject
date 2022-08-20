@@ -6,12 +6,13 @@
 	export let containerWidth = '80vw'; //container size
 	export let imageWidth = '60vw'; //img size
 	export let imageGap = '15vw'; //img size
+	export let carouselPadding = '10vw';
 
 	export let titleColor = '#fafaf9'; //img-title color
 	export let titleSize = '2vh'; //img-title color
 
 	export let btnShown = ''; //button display
-	export let btnColor = '#666'; //controll button color
+	export let btnColor = '#afafaf'; //controll button color
 	export let btnSize = '2em'; //controll button size
 
 	export let speed = 500; //duraition
@@ -40,7 +41,7 @@
 <!-- container box -->
 <div id="carousel-container" style={`width: ${containerWidth};`}>
 	<!-- flex box -->
-	<ul id="carousel-images" style={`gap: ${imageGap}`}>
+	<ul id="carousel-images" style={`gap: ${imageGap}; padding: 0 ${carouselPadding}`}>
 		{#each images as image (image)}
 			<!-- flex items -->
 			<li id={image.name} animate:flip={{ duration: speed }}>
@@ -56,7 +57,7 @@
 					class="img-title"
 					style={`color: ${titleColor}; font-size: ${titleSize}; text-align: center; margin-top: 1.5em;`}
 				>
-					{image.name}
+					- {image.name} -
 				</h2>
 			</li>
 		{/each}
@@ -90,7 +91,7 @@
 	button {
 		position: absolute;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-90%);
 		z-index: 100;
 	}
 
@@ -102,14 +103,9 @@
 		right: 2%;
 	}
 
-	button:hover {
-		transition: all 0.3s ease;
-		color: rgb(208, 38, 38);
-	}
-
 	#carousel-images {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 		flex-wrap: nowrap;
 	}
 </style>
