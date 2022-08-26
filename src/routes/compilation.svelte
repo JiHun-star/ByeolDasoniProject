@@ -10,7 +10,7 @@
 
 <main>
 	<!-- 겨울 별자리 합작 -->
-	<section>
+	<section class="backdrop-saturate-0">
 		<Saos animation={'fade-in 4s ease-out both'} once>
 			<h1 class="cotitle">겨울 별자리 합작</h1>
 			<Carousel images={byeoljari} />
@@ -23,7 +23,7 @@
 	</section>
 
 	<!-- 시유 동양풍 합작 -->
-	<section>
+	<section class="backdrop-hue-rotate-30">
 		<Saos animation={'fade-in 4s ease-out both'} once>
 			<h1 class="cotitle">시유 동양풍 합작</h1>
 			<Carousel images={dongyang} />

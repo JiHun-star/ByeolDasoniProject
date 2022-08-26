@@ -10,15 +10,37 @@
 	<!-- awards history -->
 	<section class="awards flex justify-evenly flex-col lg:flex-row">
 		<article class="basis-1/2">
-			<h1>여기는 수상 내역 넣는곳</h1>
+			<h1>새로운 경기도 노래 공정한 공모전<br /><strong>✨작사부문 대상✨</strong></h1>
+			<h2>제목 : 경기도 노래</h2>
+			<h2>부제 : 경기도에서 쉬어요</h2>
+			<h2>공모연도 : 2020년</h2>
+			<br />
 		</article>
 		<article class="basis-1/2">
-			<h1>여기는 영상 넣는곳</h1>
+			<iframe
+				class="ggd"
+				src="https://www.youtube.com/embed/uEdxNzsdwZE"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			/>
+			<h2>ver.경기틴즈</h2>
+			<br />
+			<iframe
+				class="ggd"
+				src="https://www.youtube.com/embed/eGmztNGkBOo"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			/>
+			<h2>ver.마마무 솔라</h2>
 		</article>
 	</section>
 
 	<!-- etc works -->
-	<h1>기타 개인 참여작</h1>
+	<h1 class="etctitle">기타 개인 참여작</h1>
 
 	<section class="grid ustify-items-center grid-cols-1 md:grid-cols-3 gap-3">
 		{#each etcyt as yt}
@@ -73,12 +95,19 @@
 			padding-top: 15vh;
 			width: 100vw;
 			height: 100vh;
-			overflow: hidden;
 		}
 
 		h1 {
 			margin: 10vh auto;
 			font-size: 2em;
+		}
+
+		strong {
+			color: #fcd34d;
+		}
+
+		.etctitle {
+			padding-top: 10vh;
 		}
 
 		.gridbox iframe {
@@ -104,6 +133,10 @@
 	@media screen and (min-width: 1024px) {
 		.songname {
 			font-size: 1.5em;
+		}
+
+		.ggd {
+			width: 30vw;
 		}
 	}
 </style>
