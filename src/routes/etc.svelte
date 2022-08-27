@@ -10,7 +10,7 @@
 	<!-- awards history -->
 	<section class="awards flex justify-evenly flex-col lg:flex-row">
 		<article class="basis-1/2">
-			<h1>새로운 경기도 노래 공정한 공모전<br /><strong>✨작사부문 대상✨</strong></h1>
+			<h1>새로운 경기도 노래<br />공정한 공모전<br /><strong>✨작사부문 대상✨</strong></h1>
 			<h2>제목 : 경기도 노래</h2>
 			<h2>부제 : 경기도에서 쉬어요</h2>
 			<h2>공모연도 : 2020년</h2>
@@ -92,7 +92,7 @@
 		}
 
 		.awards {
-			padding-top: 15vh;
+			padding-top: 25vh;
 			width: 100vw;
 			height: 100vh;
 		}
@@ -107,7 +107,7 @@
 		}
 
 		.etctitle {
-			padding-top: 10vh;
+			padding-top: 15vh;
 		}
 
 		.gridbox iframe {
@@ -131,6 +131,10 @@
 	}
 
 	@media screen and (min-width: 1024px) {
+		.awards {
+			padding-top: 18vh;
+		}
+
 		.songname {
 			font-size: 1.5em;
 		}

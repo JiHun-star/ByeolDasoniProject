@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Saos from 'saos'; //scroll animaiton
 	import Carousel from '../components/carousel.svelte';
-	import { byeoljari, dongyang } from '$lib/youtube';
+	import { byeoljari, dongyang, yeoreum } from '$lib/youtube';
 </script>
 
 <svelte:head>
@@ -9,6 +9,19 @@
 </svelte:head>
 
 <main>
+	<!-- 여름이었다 합작 -->
+	<section class="backdrop-hue-rotate-[240deg]">
+		<Saos animation={'fade-in 4s ease-out both'} once>
+			<h1 class="cotitle">여름이었다 합작</h1>
+			<Carousel images={yeoreum} btnShown={'none'} />
+			<p class="cotext block lg:hidden">
+				<br /><br />2022년 무더운 여름,
+				<br /><br />한국 보카로/음합엔P 여러분들과 함께
+				<br /><br />아름다운 추억으로 만들어 보세요.
+			</p>
+		</Saos>
+	</section>
+
 	<!-- 겨울 별자리 합작 -->
 	<section class="backdrop-saturate-0">
 		<Saos animation={'fade-in 4s ease-out both'} once>
@@ -23,7 +36,7 @@
 	</section>
 
 	<!-- 시유 동양풍 합작 -->
-	<section class="backdrop-hue-rotate-30">
+	<section class="backdrop-hue-rotate-[30deg]">
 		<Saos animation={'fade-in 4s ease-out both'} once>
 			<h1 class="cotitle">시유 동양풍 합작</h1>
 			<Carousel images={dongyang} />

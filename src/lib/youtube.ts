@@ -150,8 +150,8 @@ export const binkan = [
 
 export const yeoreum = [
 	{
-		name: '',
-		src: ''
+		name: '여름이었다',
+		src: 'd2-1PZD9VW8'
 	}
 ];
 
