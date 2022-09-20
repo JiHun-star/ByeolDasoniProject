@@ -17,7 +17,7 @@
 		<a href="https://twitter.com/rlarkspx" target="_blank" title="트위터">
 			<i class="fa-brands fa-twitter" />
 		</a>
-		<a href="https://www.instagram.com/byeoldasoni2/" target="_blank" title="인스타그램">
+		<a href="https://www.instagram.com/byeol_dasoni/" target="_blank" title="인스타그램">
 			<i class="fa-brands fa-instagram" />
 		</a>
 	</aside>
