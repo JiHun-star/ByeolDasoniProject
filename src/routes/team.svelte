@@ -78,7 +78,7 @@
 			width: 100vw;
 			height: 100vh;
 
-			background-image: url('../img/mbg2.png');
+			background-image: url('/img/mbg2.png');
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -130,7 +130,7 @@
 
 	@media screen and (min-width: 1024px) {
 		main {
-			background-image: url('../img/wbg2.png');
+			background-image: url('/img/wbg2.png');
 		}
 		article {
 			margin: 4vw;

@@ -42,7 +42,7 @@
 			height: 100vh;
 			padding-top: 15vh;
 
-			background-image: url('../img/mbg.png');
+			background-image: url('/img/mbg.png');
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -91,7 +91,7 @@
 			padding-top: 35vh;
 			padding-right: 10vw;
 			text-align: right;
-			background-image: url('../img/wbg.png');
+			background-image: url('/img/wbg.png');
 		}
 
 		aside {

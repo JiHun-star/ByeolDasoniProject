@@ -72,7 +72,7 @@
 			-ms-overflow-style: none; /* IE and Edge 스크롤바 제거 */
 			scrollbar-width: none; /* Firefox 스크롤바 제거 */
 
-			background-image: url('../img/bg4.png');
+			background-image: url('/img/bg4.png');
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
