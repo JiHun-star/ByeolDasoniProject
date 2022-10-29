@@ -117,6 +117,10 @@ export const byeolbada = [
 	{
 		name: 'Light years',
 		src: '8XRcHjlpC_w'
+	},
+	{
+		name: '야광별을 붙이는 밤',
+		src: 'CNb-ibuBQIg'
 	}
 ];
 
