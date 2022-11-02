@@ -23,7 +23,6 @@
 
 <svelte:head>
 	<title>Byeol_Dasoni</title>
-	<script src="https://kit.fontawesome.com/7f5a5a3f25.js" crossorigin="anonymous"></script>
 </svelte:head>
 
 <section class="flex flex-col w-full">
