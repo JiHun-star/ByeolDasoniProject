@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Tenada';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RIDIBatang';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--tfont: 'Tenada';
+	--cfont: 'RIDIBatang';
+}
+
+body {
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	padding: 0;
+	overflow: hidden scroll;
+	scroll-margin: none;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+h1 {
+	font-family: var(--tfont);
+	font-weight: bold;
+}
+
+h2 {
+	font-family: var(--tfont);
+	font-weight: normal;
+}
+
+p,
+span {
+	font-family: var(--cfont);
+}
