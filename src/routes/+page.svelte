@@ -72,10 +72,12 @@
 					<p>
 						주로 서브컬쳐 음악 쪽에서 활동하고 있습니다.
 						<br />작사 의뢰는 트위터 DM이나 이메일을 이용해 주세요!
+						<br /><small>*가끔씩 컴필레이션 합작을 주최합니다.</small>
+						<br />❕VO!CE채널 운영중.
 						<br />
 						<br />✨'별의 바다에 가라앉고 있어' 팀장
-						<br />❕VO!CE채널 운영중.
-						<br /><br /><small>*가끔씩 컴필레이션 합작을 주최합니다.</small>
+						<br />🎉Re:Birth-SeeU 10th Anniversary Album- 참여
+						<br />🎺첫 만남(初めての出会い) Album 참여
 					</p>
 				</div>
 			</div>
