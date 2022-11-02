@@ -279,6 +279,7 @@
 		width: 80vw;
 		padding: 50px 40px;
 		margin: 0 auto;
+		opacity: 0.95;
 	}
 
 	.profileImg {
