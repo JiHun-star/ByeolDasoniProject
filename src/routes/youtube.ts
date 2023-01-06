@@ -2,6 +2,10 @@
 
 export const etcyt = [
 	{
+		name: '왼손잡이 러버즈',
+		src: 'TlogR9XM-MQ'
+	},
+	{
 		name: '봄비가 그치기를 기다려',
 		src: '9h_xOmo_oOg'
 	},
