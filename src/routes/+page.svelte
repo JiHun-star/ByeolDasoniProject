@@ -77,6 +77,7 @@
 						<br />❄️'겨울이 있던 꽃' 팀장
 						<br />✨'별의 바다에 가라앉고 있어' 팀장
 						<br />🎉Re:Birth-SeeU 10th Anniversary Album- 참여
+						<br />🎉Hello, space!-UNI 5th Anniversary Album- 참여
 						<br />🎺첫 만남(初めての出会い) Album 참여
 					</p>
 				</div>
