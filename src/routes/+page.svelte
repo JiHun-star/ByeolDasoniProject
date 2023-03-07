@@ -1,11 +1,10 @@
 <script>
-	import profileImg from '$lib/images/profile.png';
-
 	//reveal
 	import { reveal } from 'svelte-reveal';
+	import { copy } from 'svelte-copy';
 
 	import { afterUpdate } from 'svelte';
-	import { each } from 'svelte/internal';
+	import { each, onMount } from 'svelte/internal';
 	let show = false;
 	afterUpdate(() => {
 		show = true;
@@ -15,10 +14,16 @@
 	import { byeolbada, meika, etcyt, compilations } from './youtube';
 
 	//toggle
-	let toggleshow1 = false;
-	let toggleshow2 = true;
+	let toggleshow1 = true;
+	let toggleshow2 = false;
 	let toggleshow3 = false;
 	let toggleshow4 = false;
+
+	//tab-active
+	import { count } from './+page';
+	onMount(() => {
+		count.set(1);
+	});
 </script>
 
 <svelte:head>
@@ -41,26 +46,36 @@
 		>
 			<div class="flex items-center gap-6 flex-col xl:flex-row xl:items-start">
 				<picture>
-					<img src={profileImg} alt="프로필 사진" class="profileImg" />
+					<img src="/images/profile.png" alt="프로필 사진" class="profileImg" />
 				</picture>
 				<div class="text-center xl:text-left">
 					<h1 class="text-3xl text-info-content">별다소니</h1>
 					<h2 class="text-xl">서브컬쳐 작사가</h2>
 					<ul class="flex flex-row gap-4 justify-center xl:justify-start">
 						<li>
-							<a href="https://www.youtube.com/channel/UCDn4683YUTBdzSVRRrpZLYQ" target="_blank">
+							<a href="mailto:rlarkspx@gmail.com" rel="noreferrer" target="_blank">
+								<i class="fa-solid fa-envelope text-2xl" />
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/@BDSN_Official" rel="noreferrer" target="_blank">
 								<i class="fa-brands fa-youtube text-2xl" />
 							</a>
 						</li>
 						<li>
-							<a href="https://twitter.com/rlarkspx" target="_blank">
+							<a href="https://twitter.com/rlarkspx" rel="noreferrer" target="_blank">
 								<i class="fa-brands fa-twitter text-2xl" />
 							</a>
 						</li>
 						<li>
-							<a href="mailto:rlarkspx@gmail.com" target="_blank">
-								<i class="fa-solid fa-envelope text-2xl" />
-							</a>
+							<button
+								use:copy={`별다소니#6174`}
+								on:svelte-copy={(event) => alert('Copied : ' + event.detail)}
+								on:svelte-copy:error={(event) =>
+									alert(`There was an error: ${event.detail.message}`)}
+							>
+								<i class="fa-brands fa-discord text-2xl" />
+							</button>
 						</li>
 					</ul>
 					<br />
@@ -71,11 +86,11 @@
 					<br />
 					<p>
 						주로 보컬로이드/음성합성엔진 음악 쪽에서 활동하고 있습니다.
-						<br />작사 의뢰는 트위터 DM이나 이메일을 이용해 주세요!
+						<br />작사 의뢰는 트위터 or 디스코드 DM, 혹은 이메일을 이용해 주세요!
 						<br />
 						<br />❕VO!CE채널 운영중.<br />
 						<br />❄️'겨울이 있던 꽃' 팀장
-						<br />✨'별의 바다에 가라앉고 있어' 팀장<br />
+						<br />✨'별의 바다에 가라앉고 있어' 팀장 (활동 종료)<br />
 						<br />📞"Phone Booth" Digital Single Album 참여
 						<br />🎉"Hello, space!-UNI 5th Anniversary Album-" 참여
 						<br />🎉"Re:Birth-SeeU 10th Anniversary Album-" 참여
@@ -218,7 +233,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-2xl text-info-content">기타 참여작</h1>
+			<h1 class="text-2xl text-info-content">기타 참여작 <small>(최신순)</small></h1>
 			<br />
 			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow4} />
 			<br />
@@ -275,7 +290,7 @@
 
 <style>
 	section {
-		padding: 15vw 0;
+		padding: 8vh 0;
 	}
 
 	.card {

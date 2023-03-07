@@ -1,16 +1,23 @@
 <script>
 	import './styles.css';
+
+	//tab-active
+	import { count } from './+page';
+	let tabActive;
+	const active = count.subscribe((value) => {
+		tabActive = value;
+	});
 </script>
 
 <div class="app" id="app">
 	<header>
-		<h1 class="bgTitle">
-			<br />
-			저기 밤하늘에 수많은 별이 타오르고 있습니다. 오롯이 홀로 고독하게 상처를 안고 있는 그 생명의 빛이
-			모여, 세상은 잠기고 적막만이 남았습니다. 그 모습이 어찌나 아름답게 위태롭고, 애타게 달콤하고, 차갑고
-			뜨거운 것인지 알게 된 순간. 눈가에 밀려드는 수평선 그 위로 새벽이 벅차오르고 있었습니다. 저는 당신을
-			사랑하고 싶습니다.
-		</h1>
+		<nav class="tabs">
+			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 1}>Portfolio</a>
+			<a href="#a" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE(준비중)</a>
+			<a href="#a" class="tab tab-bordered" class:tab-active={tabActive === 3}
+				>Compilation(준비중)</a
+			>
+		</nav>
 	</header>
 
 	<main>
@@ -30,15 +37,11 @@
 
 <style>
 	header {
-		position: fixed;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0.3;
+		padding: 8vh 0 0;
 	}
 
-	.bgTitle {
-		font-size: 2.6vw;
+	nav {
+		display: block;
 	}
 
 	.app {
