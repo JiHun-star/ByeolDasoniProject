@@ -13,9 +13,8 @@
 	<header>
 		<nav class="tabs">
 			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 1}>Portfolio</a>
-			<a href="#a" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE(준비중)</a>
-			<a href="#a" class="tab tab-bordered" class:tab-active={tabActive === 3}
-				>Compilation(준비중)</a
+			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE(준비중)</a>
+			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 3}>Compilation(준비중)</a
 			>
 		</nav>
 	</header>
