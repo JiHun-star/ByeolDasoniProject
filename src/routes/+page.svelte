@@ -11,7 +11,7 @@
 	});
 
 	//store
-	import { byeolbada, meika, etcyt, compilations } from './youtube';
+	import { byeolbada, meika, etcyt } from './youtube';
 
 	//toggle
 	let toggleshow1 = true;
@@ -100,7 +100,6 @@
 			</div>
 		</div>
 	{/if}
-
 	<div class="divider" />
 	<!-- awords -->
 	{#if show}
@@ -148,7 +147,6 @@
 			{/if}
 		</div>
 	{/if}
-
 	<div class="divider" />
 	<!-- 별의 바다에 가라앉고 있어 -->
 	{#if show}
@@ -183,7 +181,6 @@
 			{/if}
 		</div>
 	{/if}
-
 	<div class="divider" />
 	<!-- 메이카 프로젝트 -->
 	{#if show}
@@ -218,7 +215,6 @@
 			{/if}
 		</div>
 	{/if}
-
 	<div class="divider" />
 	<!-- 기타 작업물 -->
 	{#if show}
@@ -254,38 +250,6 @@
 			{/if}
 		</div>
 	{/if}
-
-	<div class="divider" />
-	<!-- 컴필레이션 합작 -->
-	{#if show}
-		<div
-			class="grid card bg-success rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<h1 class="text-2xl text-info-content">컴필레이션 합작</h1>
-			<br />
-			{#each compilations as yt}
-				<!-- content here -->
-				<iframe
-					src="https://www.youtube.com/embed/{yt.src}"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
-					use:reveal={{ transition: 'fly' }}
-				/>
-				<br />
-				<h2>〈 {yt.name} 〉</h2>
-			{/each}
-		</div>
-	{/if}
 </section>
 
 <style>
@@ -297,7 +261,6 @@
 		width: 80vw;
 		padding: 50px 40px;
 		margin: 0 auto;
-		opacity: 0.95;
 	}
 
 	.profileImg {

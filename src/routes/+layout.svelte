@@ -3,7 +3,7 @@
 
 	//tab-active
 	import { count } from './+page';
-	let tabActive;
+	let tabActive = 0;
 	const active = count.subscribe((value) => {
 		tabActive = value;
 	});
@@ -13,8 +13,9 @@
 	<header>
 		<nav class="tabs">
 			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 1}>Portfolio</a>
-			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE(준비중)</a>
-			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 3}>Compilation(준비중)</a
+			<a href="/voice" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE</a>
+			<a href="/compilation" class="tab tab-bordered" class:tab-active={tabActive === 3}
+				>Compilation</a
 			>
 		</nav>
 	</header>
@@ -53,5 +54,9 @@
 		position: fixed;
 		bottom: 10px;
 		right: 20px;
+	}
+
+	footer {
+		padding-bottom: 8vh;
 	}
 </style>
