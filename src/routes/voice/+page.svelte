@@ -17,6 +17,9 @@
 	onMount(() => {
 		count.set(2);
 	});
+
+	//toggle
+	let toggleshow = true;
 </script>
 
 <svelte:head>
@@ -186,7 +189,51 @@
 					말씀 부탁드립니다.
 				</b>
 			</h4>
+		</div>
+	{/if}
+	<div class="divider" />
+	<!-- producers -->
+	{#if show}
+		<div
+			class="grid card bg-base-200 rounded-box place-items-center shadow-2xl"
+			use:reveal={{
+				threshold: 0.0,
+				delay: 300,
+				duration: 500,
+				transition: 'blur',
+				blur: 20,
+				opacity: 0.5
+			}}
+		>
+			<h1 class="text-3xl text-base-content uppercase">producers</h1>
 			<br /><br />
+			<h4>VO!CE에 가입하신 한국 보카로/음합엔 프로듀서 분들입니다.</h4>
+			<h4>이미지를 클릭하여 해당 프로듀서의 유튜브 채널로 이동해 보세요!</h4>
+			<br /><br />
+			<input type="checkbox" class="toggle" bind:checked={toggleshow} />
+			<br /><br />
+			{#if toggleshow}
+				<div class="grid gap-5 grid-cols-3 md:grid-cols-5 xl:grid-cols-10">
+					{#each producers as producer}
+						<!-- The button to open modal -->
+						<a
+							rel="noreferrer"
+							href={producer.channel}
+							target="_blank"
+							use:reveal={{ transition: 'fly' }}
+						>
+							<picture>
+								<img
+									src="/profile/{producer.no}.png"
+									style="width: 88px; border-radius: 50%;"
+									alt={producer.name}
+									class="profile"
+								/>
+							</picture>
+						</a>
+					{/each}
+				</div>
+			{/if}
 		</div>
 	{/if}
 </section>
@@ -208,6 +255,11 @@
 		border-radius: 15px;
 		background-color: #999;
 		margin-top: 2rem;
+	}
+
+	.profile:hover {
+		transform: scale(1.2);
+		transition: all 0.3s;
 	}
 
 	@media all and (min-width: 1024px) {
