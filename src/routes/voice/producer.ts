@@ -379,5 +379,10 @@ export const producers = [
 		no: '76',
 		name: '히나(HEENA)',
 		channel: 'https://www.youtube.com/channel/UC_W-ai2WUEZnEIdrh1XoPyw'
+	},
+	{
+		no: '77',
+		name: '심야',
+		channel: 'https://www.youtube.com/@user-xv7ju1mo7z'
 	}
 ];
