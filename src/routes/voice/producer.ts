@@ -3,177 +3,177 @@ export const producers = [
 	{
 		no: '1',
 		name: '별다소니',
-		channel: 'https://www.youtube.com/channel/UCDn4683YUTBdzSVRRrpZLYQ'
+		channel: 'https://www.youtube.com/@BDSN_Official'
 	},
 	{
 		no: '2',
 		name: '엘디큐',
-		channel: 'https://www.youtube.com/channel/UCICPFggViL6US-Tj0RcCY2w'
+		channel: 'https://www.youtube.com/@ldq8485'
 	},
 	{
 		no: '3',
 		name: '유카아이/ukai',
-		channel: 'https://www.youtube.com/channel/UCVV5S6RH_UrwFGgsA1HzI_w'
+		channel: 'https://www.youtube.com/@ukai__'
 	},
 	{
 		no: '4',
 		name: '무훈',
-		channel: 'https://youtube.com/channel/UCcKty2obi4c75DFT7r4WgZw'
+		channel: 'https://www.youtube.com/@moohun7564'
 	},
 	{
 		no: '5',
 		name: '비 고양이(Ame Neko)',
-		channel: 'https://www.youtube.com/channel/UCdxyHdWWi6HiUoEeYxdFrlg'
+		channel: 'https://www.youtube.com/@ameneko163'
 	},
 	{
 		no: '6',
 		name: '50mang쏘망',
-		channel: 'https://www.youtube.com/channel/UCnjyL32Picn9AbLwLwlczmA'
+		channel: 'https://www.youtube.com/@50mang'
 	},
 	{
 		no: '7',
 		name: 'スイッチP',
-		channel: 'https://www.youtube.com/channel/UCiXfAPYDi9FtWwz1gXtGAOw'
+		channel: 'https://www.youtube.com/@SWITCHP'
 	},
 	{
 		no: '8',
 		name: 'willow',
-		channel: 'https://www.youtube.com/channel/UCnf5NK8Mfg9V1_Zr_lw8sWQ'
+		channel: 'https://www.youtube.com/@dudtjr9841'
 	},
 	{
 		no: '9',
 		name: 'Maro♬',
-		channel: 'https://www.youtube.com/c/maronote'
+		channel: 'https://www.youtube.com/@Maronote'
 	},
 	{
 		no: '10',
 		name: 'Plum',
-		channel: 'https://www.youtube.com/c/Plumwriter'
+		channel: 'https://www.youtube.com/@Plumwriter'
 	},
 	{
 		no: '11',
 		name: 'Luae',
-		channel: 'https://youtube.com/channel/UCd0CFcQgYqxO9NY6oT2xTnA'
+		channel: 'https://www.youtube.com/@Luae_comp'
 	},
 	{
 		no: '12',
 		name: 'attwn park (박화애)',
-		channel: 'https://youtube.com/c/attwnpark'
+		channel: 'https://www.youtube.com/@attwnpark'
 	},
 	{
 		no: '13',
 		name: '5일',
-		channel: 'https://www.youtube.com/channel/UCW_0Wt04KeAsydbmT8AyIlA'
+		channel: 'https://www.youtube.com/@5days_51'
 	},
 	{
 		no: '14',
 		name: '상상정원',
-		channel: 'https://www.youtube.com/channel/UCcMlU-Q2Z4pB1i7PBoJVp8w'
+		channel: 'https://www.youtube.com/@user-zs9wd9pp7b'
 	},
 	{
 		no: '15',
 		name: '시모킴 / SIMOKIMS',
-		channel: 'https://www.youtube.com/c/시모킴SIMOKIMS'
+		channel: 'https://www.youtube.com/@SIMOKIMS'
 	},
 	{
 		no: '16',
 		name: '노버트비버',
-		channel: 'https://m.youtube.com/channel/UCExDA1xkdwR-6VICLR27oJg'
+		channel: 'https://www.youtube.com/@NovertVocaloid'
 	},
 	{
 		no: '17',
 		name: '리미',
-		channel: 'https://www.youtube.com/channel/UCtC6Rovj9MSWAvv8mRLSH-Q'
+		channel: 'https://www.youtube.com/@RimiLaboratory'
 	},
 	{
 		no: '18',
 		name: '팝스(DJPops)',
-		channel: 'https://www.youtube.com/user/DJPops0611'
+		channel: 'https://www.youtube.com/@DJPops0611'
 	},
 	{
 		no: '19',
 		name: 'WyvernP',
-		channel: 'https://youtube.com/c/WyvernPOfficial'
+		channel: 'https://www.youtube.com/@WyvernPOfficial'
 	},
 	{
 		no: '20',
 		name: '한여름(一夏)',
-		channel: 'https://youtube.com/channel/UCk9WugifY9UZ0i1ZBftQaJg'
+		channel: 'https://www.youtube.com/@onlysummer17'
 	},
 	{
 		no: '21',
 		name: '행복한피자빵',
-		channel: 'https://www.youtube.com/channel/UCPBoIGLbCk93Nltf6LBlhIQ'
+		channel: 'https://www.youtube.com/@HappyPizzaBread'
 	},
 	{
 		no: '22',
 		name: 'ENnE',
-		channel: 'https://www.youtube.com/channel/UCNcGjybPAi0iUpHoShVeIfA'
+		channel: 'https://www.youtube.com/@e_nne_'
 	},
 	{
 		no: '23',
 		name: 'GG HANAH',
-		channel: 'https://www.youtube.com/channel/UChdI4_IyLsBTUKfesQttc0Q'
+		channel: 'https://www.youtube.com/@gghanah'
 	},
 	{
 		no: '24',
 		name: '이뮤',
-		channel: 'https://www.youtube.com/channel/UCRu8NwYpMXR8ihRab8IIK0w'
+		channel: 'https://www.youtube.com/@imu_'
 	},
 	{
 		no: '25',
 		name: '난초',
-		channel: 'https://www.youtube.com/channel/UCX_u-3LiUF9j5y5bH_FatDQ/featured'
+		channel: 'https://www.youtube.com/@user-px9ew3ew3m'
 	},
 	{
 		no: '26',
 		name: '하양 복숭아',
-		channel: 'https://www.youtube.com/HakuRui'
+		channel: 'https://www.youtube.com/@WPeach'
 	},
 	{
 		no: '27',
 		name: '초코파슬리',
-		channel: 'https://www.youtube.com/channel/UCfySgkpl07q3U1aASRztNag'
+		channel: 'https://www.youtube.com/@user-ko5ge1fi5q'
 	},
 	{
 		no: '28',
 		name: 'Endou',
-		channel: 'https://www.youtube.com/channel/UC3jPPY_mpJtu7wQhYwN1KSg'
+		channel: 'https://www.youtube.com/@endou0703'
 	},
 	{
 		no: '29',
 		name: '시나브로',
-		channel: 'https://www.youtube.com/channel/UCJDpA6NWaHnCP7gRjnHpt3Q'
+		channel: 'https://www.youtube.com/@Sinavro_Uni'
 	},
 	{
 		no: '30',
 		name: '런치스쿼드',
-		channel: 'https://www.youtube.com/channel/UCFapQljGTX8CEHU_u38lZww'
+		channel: 'https://www.youtube.com/@lunchsquad1221'
 	},
 	{
 		no: '31',
 		name: '하이량',
-		channel: 'https://youtube.com/c/HiRyang'
+		channel: 'https://www.youtube.com/@HiRyang'
 	},
 	{
 		no: '32',
 		name: '마노 (Mano)',
-		channel: 'https://www.youtube.com/chorockmano'
+		channel: 'https://www.youtube.com/@chorockmano'
 	},
 	{
 		no: '33',
 		name: '空白P',
-		channel: 'https://youtube.com/channel/UC3eHf0r1Dy88cXjDjP5t7GA'
+		channel: 'https://www.youtube.com/@KuuhakuP'
 	},
 	{
 		no: '34',
 		name: '하니모스',
-		channel: 'https://www.youtube.com/channel/UCGFfi25cf_SlIOWxpfupr1Q'
+		channel: 'https://www.youtube.com/@hanimos'
 	},
 	{
 		no: '35',
 		name: '장금씨',
-		channel: 'https://www.youtube.com/c/%EC%9E%A5%EA%B8%88%EC%94%A8'
+		channel: 'https://www.youtube.com/@user-ny8cw2gj1k'
 	},
 	{
 		no: '36',
@@ -183,32 +183,32 @@ export const producers = [
 	{
 		no: '37',
 		name: 'Z:U',
-		channel: 'https://www.youtube.com/channel/UCKGe9eT_ECRn5_B3Q8tkAiw'
+		channel: 'https://www.youtube.com/@zu4317'
 	},
 	{
 		no: '38',
 		name: '선우',
-		channel: 'https://www.youtube.com/channel/UC02IGODFB1zMwI-iAIp1cfw'
+		channel: 'https://www.youtube.com/@sw_abc'
 	},
 	{
 		no: '39',
 		name: '에이앤',
-		channel: 'https://www.youtube.com/channel/UCQIWPXx-FNHy0jc4nJHBXUw'
+		channel: 'https://www.youtube.com/@a_en296'
 	},
 	{
 		no: '40',
 		name: 'NahrDijla',
-		channel: 'https://www.youtube.com/channel/UCjCEIqf1v5igZaCuxU5PqBA'
+		channel: 'https://www.youtube.com/@user-dz8kg1oz1r'
 	},
 	{
 		no: '41',
 		name: 'Renyu',
-		channel: 'https://www.youtube.com/c/Renyu/featured'
+		channel: 'https://www.youtube.com/@Renyu'
 	},
 	{
 		no: '42',
 		name: '도도시',
-		channel: 'https://www.youtube.com/channel/UCNbIWAtindd8DEiUO-9wDFA'
+		channel: 'https://www.youtube.com/@dodoshi3133'
 	},
 	{
 		no: '43',
@@ -218,87 +218,87 @@ export const producers = [
 	{
 		no: '44',
 		name: 'OZ',
-		channel: 'https://www.youtube.com/channel/UCu-c8tjacA_fASlKfvBG6Hw'
+		channel: 'https://www.youtube.com/@oz2296'
 	},
 	{
 		no: '45',
 		name: '묘우네',
-		channel: 'https://www.youtube.com/channel/UC37OMD5CKU_S8eYuag6KitA'
+		channel: 'https://www.youtube.com/@MYO_NEI'
 	},
 	{
 		no: '46',
 		name: 'GYUTAENG',
-		channel: 'https://www.youtube.com/channel/UCE5GbdbDbn_5bZtlcQoRbAw'
+		channel: 'https://www.youtube.com/@gyutaengofficial4132'
 	},
 	{
 		no: '47',
 		name: '백반P',
-		channel: 'https://www.youtube.com/channel/UCuknhbU0VVkqWWyNSKbSnIg'
+		channel: 'https://www.youtube.com/@Backban_P'
 	},
 	{
 		no: '48',
 		name: 'HIT',
-		channel: 'https://www.youtube.com/channel/UCJJza3B8Q2z15eTGSsqocPg'
+		channel: 'https://www.youtube.com/@HIT_Official'
 	},
 	{
 		no: '49',
 		name: 'FRIYAY',
-		channel: 'https://www.youtube.com/channel/UCiiAAtWrcACQymFVZlpM32A'
+		channel: 'https://www.youtube.com/@friyay3486'
 	},
 	{
 		no: '50',
 		name: '사자춤',
-		channel: 'https://www.youtube.com/channel/UCBRerofQ_RYe4LkdT1Qeq2Q'
+		channel: 'https://www.youtube.com/@Liondance'
 	},
 	{
 		no: '51',
 		name: 'Rosé_216',
-		channel: 'https://www.youtube.com/channel/UCIfRkS7-NDErzMuOEhG2XGQ'
+		channel: 'https://www.youtube.com/@rose_2163'
 	},
 	{
 		no: '52',
 		name: '134340',
-		channel: 'https://www.youtube.com/channel/UC8JVf9rTSC-NhzS8I2ftY1w'
+		channel: 'https://www.youtube.com/@Put-ph'
 	},
 	{
 		no: '53',
 		name: 'Tenucca',
-		channel: 'https://www.youtube.com/channel/UCR9RmjH5Hnnh7EnMw93XabQ'
+		channel: 'https://www.youtube.com/@Tenucca'
 	},
 	{
 		no: '54',
 		name: 'koze_1070',
-		channel: 'https://www.youtube.com/channel/UCEvmzjKIFBrsmE8HiAxd-VA'
+		channel: 'https://www.youtube.com/@koze_1070'
 	},
 	{
 		no: '55',
 		name: '유성악단',
-		channel: 'https://www.youtube.com/channel/UCSyjNPdCint3mtHwTOW202w'
+		channel: 'https://www.youtube.com/@ysad_music'
 	},
 	{
 		no: '56',
 		name: '채미유',
-		channel: 'https://www.youtube.com/channel/UCv4nnX-Uf4nzKQ40uILDDDA'
+		channel: 'https://www.youtube.com/@miyuniyu0220'
 	},
 	{
 		no: '57',
 		name: '카메냥(마약P)',
-		channel: 'https://www.youtube.com/c/카메냥'
+		channel: 'https://www.youtube.com/@KAMENYANG'
 	},
 	{
 		no: '58',
 		name: '악기히로',
-		channel: 'https://youtube.com/channel/UCVArBk95RmS4-Xs1X-k8VPA'
+		channel: 'https://www.youtube.com/@akihiro_kr'
 	},
 	{
 		no: '59',
 		name: 'Producer.P',
-		channel: 'https://youtube.com/channel/UCarEOkNB1sqPxUCr8jWRTDA'
+		channel: 'https://www.youtube.com/@producer.p'
 	},
 	{
 		no: '60',
 		name: '라토/L4T0',
-		channel: 'https://www.youtube.com/channel/UCjyweJYRXvCuwHaRKYl5lnA'
+		channel: 'https://www.youtube.com/@l4t036'
 	},
 	{
 		no: '61',
@@ -308,7 +308,7 @@ export const producers = [
 	{
 		no: '62',
 		name: '아델와이스',
-		channel: 'https://www.youtube.com/channel/UClVyHdvM82w6z7vHd62T-hw'
+		channel: 'https://www.youtube.com/@adys7683'
 	},
 	{
 		no: '63',
@@ -328,7 +328,7 @@ export const producers = [
 	{
 		no: '66',
 		name: '夏亀',
-		channel: 'https://www.youtube.com/channel/UCnUYORJzHHTRivslImruBCw'
+		channel: 'https://www.youtube.com/@NATSUKAME_'
 	},
 	{
 		no: '67',
@@ -358,7 +358,7 @@ export const producers = [
 	{
 		no: '72',
 		name: 'haruaki',
-		channel: 'https://www.youtube.com/channel/UCldhDlrnXqMyFkMOOilgKoA'
+		channel: 'https://www.youtube.com/@haruaki_official'
 	},
 	{
 		no: '73',
@@ -368,7 +368,7 @@ export const producers = [
 	{
 		no: '74',
 		name: '影',
-		channel: 'https://www.youtube.com/channel/UCsnfjs6bczzP6HiN1efv1kA'
+		channel: 'https://www.youtube.com/@EI_xx'
 	},
 	{
 		no: '75',
@@ -378,11 +378,16 @@ export const producers = [
 	{
 		no: '76',
 		name: '히나(HEENA)',
-		channel: 'https://www.youtube.com/channel/UC_W-ai2WUEZnEIdrh1XoPyw'
+		channel: 'https://www.youtube.com/@heena0908'
 	},
 	{
 		no: '77',
 		name: '심야',
 		channel: 'https://www.youtube.com/@user-xv7ju1mo7z'
+	},
+	{
+		no: '78',
+		name: 'on_OTL',
+		channel: 'https://www.youtube.com/@OTLever'
 	}
 ];
