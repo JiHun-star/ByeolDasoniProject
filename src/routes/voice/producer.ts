@@ -2,7 +2,7 @@
 export const producers = [
 	{
 		no: '1',
-		name: '별다소니',
+		name: '겨울이 있던 꽃',
 		channel: 'https://www.youtube.com/@BDSN_Official'
 	},
 	{
