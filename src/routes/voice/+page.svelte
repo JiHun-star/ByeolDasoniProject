@@ -238,9 +238,15 @@
 	{/if}
 	<div class="divider" />
 	<!-- partnership -->
-	<h2 class="bg-slate-600 text-slate-50 text-left rounded-box p-3 w-full">
-		Partnership :&nbsp; ON STAGE, 동아크루
-	</h2>
+	<div class="w-full">
+		<br />
+		<h1 class="text-3xl text-base-content uppercase">partnership</h1>
+		<br />
+		<ul class="flex flex-row justify-center gap-4">
+			<li class="partner bg-slate-700 text-slate-300 rounded-lg">ON STAGE</li>
+			<li class="partner bg-slate-700 text-slate-300 rounded-lg">동아크루</li>
+		</ul>
+	</div>
 </section>
 
 <style>
@@ -265,6 +271,10 @@
 	.profile:hover {
 		transform: scale(1.2);
 		transition: all 0.3s;
+	}
+
+	.partner {
+		padding: 6px 12px 5px;
 	}
 
 	@media all and (min-width: 1024px) {
