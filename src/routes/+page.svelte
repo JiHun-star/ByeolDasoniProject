@@ -86,7 +86,7 @@
 					<br />
 					<p>
 						주로 보컬로이드/음성합성엔진 음악 쪽에서 활동하고 있습니다.
-						<br />작사 의뢰는 트위터 or 디스코드 DM, 혹은 이메일을 이용해 주세요!
+						<br />작사 의뢰 및 문의는 트위터 or 디스코드 DM, 혹은 이메일을 이용해 주세요!
 						<br />
 						<br />❕VO!CE채널 운영중.<br />
 						<br />❄️'겨울이 있던 꽃' 팀장
@@ -96,6 +96,76 @@
 						<br />🎉"Re:Birth-SeeU 10th Anniversary Album-" 참여
 						<br />🎺"첫 만남(初めての出会い)" CD Album 참여
 					</p>
+					<br />
+					<!-- The button to open modal -->
+					<label for="my-modal-4" class="modalbtn btn text-lg shadow-md">
+						작사 의뢰 가격 및 주의사항
+					</label>
+
+					<!-- Put this part before </body> tag -->
+					<input type="checkbox" id="my-modal-4" class="modal-toggle" />
+					<label for="my-modal-4" class="modal cursor-pointer">
+						<label class="modal-box relative" for="">
+							<h3 class="text-2xl font-bold text-center">작사 의뢰시 주의사항</h3>
+							<br />
+							<p>
+								1. 작사 의뢰할 때는 무엇보다도 예의를 지켜주세요. (저도 최대한 예의를 지키려
+								노력하겠습니다)
+							</p>
+							<br />
+							<p>
+								2. 마감 기한을 말씀해주지 않으시면 기본적으로 '7일'입니다. (평균 작업 소요시간은
+								1~3일 정도입니다)
+							</p>
+							<br />
+							<p>3. 언어는 한국어 작사만 가능합니다.</p>
+							<br />
+							<p>4. 개사의 경우에는 죄송하지만 의뢰를 받고 있지 않습니다.</p>
+							<br />
+							<p>
+								5. 가사의 길이에 따른 할인은 없습니다. (가사의 길이와는 관계 없이 최선을 다해
+								작사하고 있기 때문에 양해 부탁드립니다)
+							</p>
+							<br />
+							<p>
+								6. 가사의 컨펌 및 피드백은 기본적으로 '2회'까지이며, 자잘한 수정이 필요한 경우에는
+								융통성 있게 해드릴 예정입니다.
+							</p>
+							<br />
+							<p>
+								7. 가사 작업이 시작된 이후에는 금액 환불이 불가능 합니다. 신중하게 의뢰해 주세요!
+							</p>
+							<br />
+							<p>8. 의뢰 내용에 따라 작사 의뢰를 거부할 수 있습니다.</p>
+							<div class="divider" />
+							<h3 class="text-lg font-bold">사용 범위 : 개인 곡 제작</h3>
+							<p class="py-4 indent-2">
+								단순히 개인적인 곡을 제작하실 목적으로 가사를 사용하실 경우입니다. <b
+									>가사를 이용하여 수익을 창출하지 않거나, 가사를 포함한 음원으로 얻는 수익이 미미한
+									활동(유튜브 영상 업로드, 사운드 클라우드 업로드 등)</b
+								>이 이에 해당됩니다.
+							</p>
+							<h3 class="text-md font-bold">가격 : 0원 (+후원금)</h3>
+							<div class="divider" />
+							<h3 class="text-lg font-bold">사용 범위 : 영리적 사용(저작권 양도 X)</h3>
+							<p class="py-4 indent-2">
+								<b
+									>가사를 포함한 음원을 음반 및 스트리밍 서비스에 등록하거나 기타 영리적인
+									활동(미디어 콘텐츠 OST/개인 방송용 음원 등)을 하는 경우입니다.</b
+								> 이 경우에는 가사에 대한 모든 저작권이 작사가에게 있으며, 그에 따른 저작권료를 요구할
+								수 있습니다.
+							</p>
+							<h3 class="text-md font-bold">가격 : 200,000원 (착수금)</h3>
+							<div class="divider" />
+							<h3 class="text-lg font-bold">사용 범위 : 영리적 사용(저작권 양도 O)</h3>
+							<p class="py-4 indent-2">
+								가사를 이용한 영리적 활동의 목적으로 <b>가사의 지적재산권을 의뢰자에게 양도</b>하는
+								경우입니다. 단, 작사가의 저작인격권을 침해할 경우에는 가사의 사용을 제한할 수
+								있습니다.
+							</p>
+							<h3 class="text-md font-bold">가격 : 200,000원 (착수금) + 500,000원~ (계약금)</h3>
+						</label>
+					</label>
 				</div>
 			</div>
 		</div>
@@ -274,6 +344,11 @@
 		border-radius: 15px;
 		background-color: #999;
 		margin-top: 2rem;
+	}
+
+	.modalbtn {
+		font-family: var(--cfont);
+		font-weight: bolder;
 	}
 
 	@media all and (min-width: 1024px) {
