@@ -99,7 +99,7 @@
 					<br />
 					<!-- The button to open modal -->
 					<label for="my-modal-4" class="modalbtn btn text-lg shadow-md">
-						작사 의뢰 가격 및 주의사항
+						의뢰 가격 및 주의사항
 					</label>
 
 					<!-- Put this part before </body> tag -->
