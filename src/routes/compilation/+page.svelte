@@ -72,55 +72,6 @@
 			<div class="divider" />
 		{/if}
 	{/each}
-	{#if show}
-		<div
-			class="grid card bg-zinc-400 rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<!-- content here -->
-			<h1 class="text-2xl">겨울 별자리</h1>
-			<iframe
-				src="https://www.youtube.com/embed/videoseries?list=PLOSNjkDS9mwi8CGKR9Ccx49A16UjAyUGV"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-				use:reveal={{ transition: 'fly' }}
-			/>
-		</div>
-	{/if}
-	<div class="divider" />
-	{#if show}
-		<div
-			class="grid card bg-zinc-400 rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<!-- content here -->
-			<h1 class="text-2xl">시유X동양풍</h1>
-			<iframe
-				src="https://www.youtube.com/embed/videoseries?list=PLOSNjkDS9mwg85J9Aft71ecnxHRsNAA-d"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-				use:reveal={{ transition: 'fly' }}
-			/>
-		</div>
-	{/if}
 </section>
 
 <style>
