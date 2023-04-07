@@ -389,5 +389,10 @@ export const producers = [
 		no: '78',
 		name: 'on_OTL',
 		channel: 'https://www.youtube.com/@OTLever'
+	},
+	{
+		no: '79',
+		name: '해초파리',
+		channel: 'https://www.youtube.com/@extaxi3_3'
 	}
 ];
