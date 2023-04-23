@@ -245,6 +245,9 @@
 		<ul class="flex flex-row justify-center gap-4">
 			<li class="partner bg-slate-700 text-slate-300 rounded-lg">ON STAGE</li>
 			<li class="partner bg-slate-700 text-slate-300 rounded-lg">동아크루</li>
+			<li class="partner bg-slate-700 text-slate-300 rounded-lg">
+				한국 음성합성엔진 캐릭터 사랑회
+			</li>
 		</ul>
 	</div>
 </section>
