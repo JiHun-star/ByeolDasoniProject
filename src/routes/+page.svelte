@@ -63,6 +63,11 @@
 							</a>
 						</li>
 						<li>
+							<a href="https://byeol-dasoni.postype.com" rel="noreferrer" target="_blank">
+								<i class="fa-regular fa-paragraph fa-flip-horizontal" />
+							</a>
+						</li>
+						<li>
 							<a href="https://twitter.com/rlarkspx" rel="noreferrer" target="_blank">
 								<i class="fa-brands fa-twitter text-2xl" />
 							</a>
