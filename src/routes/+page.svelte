@@ -64,7 +64,7 @@
 						</li>
 						<li>
 							<a href="https://byeol-dasoni.postype.com" rel="noreferrer" target="_blank">
-								<i class="fa-regular fa-paragraph fa-flip-horizontal" />
+								<i class="fa-solid fa-paragraph fa-flip-horizontal text-2xl" />
 							</a>
 						</li>
 						<li>
