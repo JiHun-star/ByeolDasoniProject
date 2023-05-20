@@ -2,6 +2,10 @@
 
 export const etcyt = [
 	{
+		name: '상실의 목숨',
+		src: '9RNyR0qQtuM'
+	},
+	{
 		name: '뒤늦게 피어오른 꽃의 이름은',
 		src: '1Z--8kXbuEk'
 	},
