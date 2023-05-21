@@ -404,5 +404,10 @@ export const producers = [
 		no: '81',
 		name: '캥다',
 		channel: 'https://www.youtube.com/@daydream1ckang'
+	},
+	{
+		no: '82',
+		name: 'WasaBi',
+		channel: 'https://www.youtube.com/@11o2g'
 	}
 ];
