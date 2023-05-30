@@ -232,8 +232,8 @@ export const producers = [
 	},
 	{
 		no: '47',
-		name: '백반P',
-		channel: 'https://www.youtube.com/@Backban_P'
+		name: 'detre_0115',
+		channel: 'https://www.youtube.com/@detre_0115'
 	},
 	{
 		no: '48',
