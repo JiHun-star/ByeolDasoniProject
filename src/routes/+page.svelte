@@ -11,13 +11,14 @@
 	});
 
 	//store
-	import { byeolbada, meika, etcyt } from './youtube';
+	import { winterflower, byeolbada, meika, etcyt } from './youtube';
 
 	//toggle
-	let toggleshow1 = true;
-	let toggleshow2 = false;
+	let toggleshow1 = false;
+	let toggleshow2 = true;
 	let toggleshow3 = false;
 	let toggleshow4 = false;
+	let toggleshow5 = false;
 
 	//tab-active
 	import { count } from './+page';
@@ -228,6 +229,40 @@
 		</div>
 	{/if}
 	<div class="divider" />
+	<!-- 겨울이 있던 꽃 -->
+	{#if show}
+		<div
+			class="grid card bg-secondary-content rounded-box place-items-center shadow-2xl"
+			use:reveal={{
+				threshold: 0.0,
+				delay: 300,
+				duration: 500,
+				transition: 'blur',
+				blur: 20,
+				opacity: 0.5
+			}}
+		>
+			<h1 class="text-2xl text-info-content">겨울이 있던 꽃</h1>
+			<br />
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow2} />
+			{#if toggleshow2}
+				{#each winterflower as yt}
+					<!-- content here -->
+					<iframe
+						src="https://www.youtube.com/embed/{yt.src}"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+						use:reveal={{ transition: 'fly' }}
+					/>
+					<br />
+					<h2>〈 {yt.name} 〉</h2>
+				{/each}
+			{/if}
+		</div>
+	{/if}
+	<div class="divider" />
 	<!-- 별의 바다에 가라앉고 있어 -->
 	{#if show}
 		<div
@@ -243,8 +278,8 @@
 		>
 			<h1 class="text-2xl text-info-content">별의 바다에 가라앉고 있어</h1>
 			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow2} />
-			{#if toggleshow2}
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow3} />
+			{#if toggleshow3}
 				{#each byeolbada as yt}
 					<!-- content here -->
 					<iframe
@@ -277,8 +312,8 @@
 		>
 			<h1 class="text-2xl text-info-content">메이카 프로젝트</h1>
 			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow3} />
-			{#if toggleshow3}
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow4} />
+			{#if toggleshow4}
 				{#each meika as yt}
 					<!-- content here -->
 					<iframe
@@ -311,9 +346,9 @@
 		>
 			<h1 class="text-2xl text-info-content">기타 참여작 <small>(최신순)</small></h1>
 			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow4} />
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow5} />
 			<br />
-			{#if toggleshow4}
+			{#if toggleshow5}
 				{#each etcyt as yt}
 					<!-- content here -->
 					<iframe
