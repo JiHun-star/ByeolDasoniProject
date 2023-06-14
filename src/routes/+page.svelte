@@ -75,7 +75,7 @@
 						</li>
 						<li>
 							<button
-								use:copy={`별다소니#6174`}
+								use:copy={`byeoldasoni`}
 								on:svelte-copy={(event) => alert('Copied : ' + event.detail)}
 								on:svelte-copy:error={(event) =>
 									alert(`There was an error: ${event.detail.message}`)}
