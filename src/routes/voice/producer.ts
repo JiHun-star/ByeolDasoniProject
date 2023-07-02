@@ -232,8 +232,8 @@ export const producers = [
 	},
 	{
 		no: '47',
-		name: 'detre_0115',
-		channel: 'https://www.youtube.com/@detre_0115'
+		name: '𝙻𝚈𝚂𝙸.𝙸𝚁𝙾',
+		channel: 'https://www.youtube.com/@LYSI_06'
 	},
 	{
 		no: '48',
