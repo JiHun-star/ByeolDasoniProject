@@ -409,5 +409,10 @@ export const producers = [
 		no: '82',
 		name: 'WasaBi',
 		channel: 'https://www.youtube.com/@11o2g'
+	},
+	{
+		no: '83',
+		name: '감튀',
+		channel: 'https://www.youtube.com/@basaggamtwi'
 	}
 ];
