@@ -414,5 +414,10 @@ export const producers = [
 		no: '83',
 		name: '감튀',
 		channel: 'https://www.youtube.com/@basaggamtwi'
+	},
+	{
+		no: '84',
+		name: 'JY2(Team Lighteous',
+		channel: 'https://www.youtube.com/@JY2_TL'
 	}
 ];
