@@ -75,7 +75,7 @@
 						</li>
 						<li>
 							<a href="https://www.instagram.com/byeol_dasoni" rel="noreferrer" target="_blank">
-								<i class="fa-brands fa-instagram text-2xl" />
+								<i class="fa-brands fa-square-instagram text-2xl" />
 							</a>
 						</li>
 						<li>
