@@ -419,5 +419,10 @@ export const producers = [
 		no: '84',
 		name: 'JY2(Team Lighteous',
 		channel: 'https://www.youtube.com/@JY2_TL'
+	},
+	{
+		no: '85',
+		name: 'M쿠유',
+		channel: 'https://www.youtube.com/@CooU_M'
 	}
 ];
