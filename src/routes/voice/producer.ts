@@ -424,5 +424,10 @@ export const producers = [
 		no: '85',
 		name: 'M쿠유',
 		channel: 'https://www.youtube.com/@CooU_M'
+	},
+	{
+		no: '86',
+		name: '망둥 mangdoong',
+		channel: 'https://www.youtube.com/@mangdooong'
 	}
 ];
