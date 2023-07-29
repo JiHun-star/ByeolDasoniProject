@@ -287,7 +287,7 @@ export const producers = [
 	},
 	{
 		no: '58',
-		name: '악기히로',
+		name: 'Aki あき',
 		channel: 'https://www.youtube.com/@akihiro_kr'
 	},
 	{
