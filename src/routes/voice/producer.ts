@@ -434,5 +434,10 @@ export const producers = [
 		no: '87',
 		name: '지노가쯔',
 		channel: 'https://youtube.com/@GAJJEUMUSIC'
+	},
+	{
+		no: '88',
+		name: '테루테루',
+		channel: 'https://www.youtube.com/@teru106__'
 	}
 ];
