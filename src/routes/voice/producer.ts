@@ -78,7 +78,7 @@ export const producers = [
 	{
 		no: '16',
 		name: '노버트비버',
-		channel: 'https://www.youtube.com/@NovertVocaloid'
+		channel: 'https://www.youtube.com/@NovertVocalSynth'
 	},
 	{
 		no: '17',
