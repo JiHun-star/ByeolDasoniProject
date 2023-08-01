@@ -218,7 +218,7 @@ export const producers = [
 	{
 		no: '44',
 		name: 'OZ',
-		channel: 'https://www.youtube.com/@oz2296'
+		channel: 'https://www.youtube.com/@oz0802'
 	},
 	{
 		no: '45',
@@ -243,7 +243,7 @@ export const producers = [
 	{
 		no: '49',
 		name: 'FRIYAY',
-		channel: 'https://www.youtube.com/@friyay3486'
+		channel: 'https://www.youtube.com/@FRIYAY_MUSIC'
 	},
 	{
 		no: '50',
@@ -258,7 +258,7 @@ export const producers = [
 	{
 		no: '52',
 		name: '134340',
-		channel: 'https://www.youtube.com/@Put-ph'
+		channel: 'https://www.youtube.com/@Pluto-alpha'
 	},
 	{
 		no: '53',
@@ -272,8 +272,8 @@ export const producers = [
 	},
 	{
 		no: '55',
-		name: '유성악단',
-		channel: 'https://www.youtube.com/@ysad_music'
+		name: '쿠로세이',
+		channel: 'https://www.youtube.com/@_KUROSEI_'
 	},
 	{
 		no: '56',
@@ -343,7 +343,7 @@ export const producers = [
 	{
 		no: '69',
 		name: '하얀이리',
-		channel: 'https://youtube.com/@user-mz3tb3go9r'
+		channel: 'https://youtube.com/@Shiroi_Ookami'
 	},
 	{
 		no: '70',
@@ -383,7 +383,7 @@ export const producers = [
 	{
 		no: '77',
 		name: '심야',
-		channel: 'https://www.youtube.com/@user-xv7ju1mo7z'
+		channel: 'https://www.youtube.com/@mdnightstarry'
 	},
 	{
 		no: '78',
