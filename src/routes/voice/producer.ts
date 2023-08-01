@@ -122,7 +122,7 @@ export const producers = [
 	},
 	{
 		no: '25',
-		name: '난초',
+		name: '구분',
 		channel: 'https://www.youtube.com/@starTforu'
 	},
 	{
@@ -133,7 +133,7 @@ export const producers = [
 	{
 		no: '27',
 		name: '초코파슬리',
-		channel: 'https://www.youtube.com/@user-ko5ge1fi5q'
+		channel: 'https://www.youtube.com/@zzurururu'
 	},
 	{
 		no: '28',
@@ -173,7 +173,7 @@ export const producers = [
 	{
 		no: '35',
 		name: '장금씨',
-		channel: 'https://www.youtube.com/@user-ny8cw2gj1k'
+		channel: 'https://www.youtube.com/@user-janggeum'
 	},
 	{
 		no: '36',
@@ -187,8 +187,8 @@ export const producers = [
 	},
 	{
 		no: '38',
-		name: '선우',
-		channel: 'https://www.youtube.com/@sw_abc'
+		name: '즈믄',
+		channel: 'https://www.youtube.com/@zu__mun'
 	},
 	{
 		no: '39',
