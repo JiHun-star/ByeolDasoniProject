@@ -123,7 +123,7 @@ export const producers = [
 	{
 		no: '25',
 		name: '난초',
-		channel: 'https://www.youtube.com/@user-px9ew3ew3m'
+		channel: 'https://www.youtube.com/@starTforu'
 	},
 	{
 		no: '26',
