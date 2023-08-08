@@ -45,7 +45,7 @@
 				opacity: 0.5
 			}}
 		>
-			<div class="flex items-center gap-6 flex-col xl:flex-row xl:items-start">
+			<div class="flex items-center gap-10 flex-col xl:flex-row xl:items-start">
 				<picture>
 					<img src="/images/profile.png" alt="프로필 사진" class="profileImg" />
 				</picture>
@@ -92,7 +92,7 @@
 					<br />
 					<p>
 						<br />주로 보컬로이드/음성합성엔진 및 서브컬쳐 음악 쪽에서 활동하고 있습니다.
-						<br />작사 의뢰 및 문의는 트위터 or 디스코드 DM, 혹은 이메일을 이용해 주세요!
+						<br /><b>작사 의뢰 및 문의는 트위터 or 디스코드 DM, 혹은 이메일을 이용해 주세요!</b>
 						<br />
 						<br />❕VO!CE채널 운영
 						<br />❄️'겨울이 있던 꽃' 팀장
