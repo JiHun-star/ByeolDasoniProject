@@ -170,6 +170,10 @@ export const meika = [
 
 export const compilations = [
 	{
+		name: '꽃말합작',
+		src: 'G_Ep5CfoQ7I'
+	},
+	{
 		name: '빈칸합작',
 		src: 'CSePZl8N1Q0'
 	},
