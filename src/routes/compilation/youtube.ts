@@ -2,6 +2,10 @@
 
 export const compilations = [
 	{
+		name: '꽃말합작 (2023)',
+		src: 'G_Ep5CfoQ7I'
+	},
+	{
 		name: '빈 칸 (2022)',
 		src: 'CSePZl8N1Q0'
 	},

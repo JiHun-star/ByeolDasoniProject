@@ -165,20 +165,3 @@ export const meika = [
 		src: 'BqUYZhAtMJc'
 	}
 ];
-
-//컴필레이션 합작
-
-export const compilations = [
-	{
-		name: '꽃말합작',
-		src: 'G_Ep5CfoQ7I'
-	},
-	{
-		name: '빈칸합작',
-		src: 'CSePZl8N1Q0'
-	},
-	{
-		name: '여름이었다',
-		src: 'd2-1PZD9VW8'
-	}
-];
