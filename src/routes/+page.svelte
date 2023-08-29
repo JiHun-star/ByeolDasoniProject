@@ -257,7 +257,10 @@
 						use:reveal={{ transition: 'fly' }}
 					/>
 					<br />
-					<a href={yt.linked} target="_blank"><h2>〈 {yt.name} 〉</h2></a>
+					<h2>〈 {yt.name} 〉</h2>
+					<a href={yt.linked} target="_blank" title="음원 스트리밍 들으러가기"
+						><i class="fa-solid fa-music" /></a
+					>
 				{/each}
 			{/if}
 		</div>
