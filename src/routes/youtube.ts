@@ -2,6 +2,10 @@
 
 export const etcyt = [
 	{
+		name: '함은연가(䓿隱戀歌)',
+		src: 'mDTs1ud3jJI'
+	},
+	{
 		name: '괜찮아 괜찮아',
 		src: 'L9TeSwhx9NU'
 	},
