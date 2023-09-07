@@ -454,5 +454,10 @@ export const producers = [
 		no: '91',
 		name: '김강8',
 		channel: 'https://www.youtube.com/@river8205'
+	},
+	{
+		no: '92',
+		name: 'PITAKUNOSOI',
+		channel: 'https://www.youtube.com/@PITAKUNOSO'
 	}
 ];
