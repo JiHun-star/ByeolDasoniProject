@@ -100,8 +100,8 @@
 					</p>
 					<p>
 						<br /> ▼ 외부 앨범 참여 목록 ▼<br />
-						<br />🌸Digitalㅣ"괜찮아 괜찮아" 참여
-						<br />📞Digitalㅣ"Phone Booth" 참여
+						<br />🌸Digital Singleㅣ"괜찮아 괜찮아" 참여
+						<br />📞Digital Singleㅣ"Phone Booth" 참여
 						<br />🎉CDㅣ"Hello, space!-UNI 5th Anniversary Album-" 참여
 						<br />🎉CD & Digitalㅣ"Re:Birth-SeeU 10th Anniversary Album-" 참여
 						<br />🎺CDㅣ"첫 만남(初めての出会い)" 참여
