@@ -469,5 +469,10 @@ export const producers = [
 		no: '94',
 		name: 'EX3',
 		channel: 'https://youtube.com/@EX3exp'
+	},
+	{
+		no: '95',
+		name: '이세',
+		channel: 'https://www.youtube.com/@ise0013'
 	}
 ];
