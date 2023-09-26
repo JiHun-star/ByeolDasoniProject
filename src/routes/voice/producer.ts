@@ -474,5 +474,15 @@ export const producers = [
 		no: '95',
 		name: '이세',
 		channel: 'https://www.youtube.com/@ise0013'
+	},
+	{
+		no: '96',
+		name: '6세이용가',
+		channel: 'https://youtube.com/@6seiyong-ga'
+	},
+	{
+		no: '97',
+		name: 'Tune_ing',
+		channel: 'https://www.youtube.com/@tune_ing'
 	}
 ];
