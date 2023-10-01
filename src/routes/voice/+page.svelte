@@ -42,9 +42,9 @@
 		>
 			<h1 class="text-4xl text-neutral-content">VO!CE CHART</h1>
 			<br />
-			<h1 class="text-3xl text-neutral-content">- 2023.08 -</h1>
+			<h1 class="text-3xl text-neutral-content">- 2023.09 -</h1>
 			<iframe
-				src="https://www.youtube.com/embed/2PdfP59teRQ?si=nhAqtvUeYegYL4Gl"
+				src="https://www.youtube.com/embed/OO0mXWWHaz8"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
