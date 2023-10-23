@@ -27,6 +27,23 @@
 </svelte:head>
 
 <section class="flex flex-col w-full">
+	<!-- notice -->
+	{#if show}
+		<div
+			class="grid card bg-error rounded-box place-items-center shadow-2xl"
+			use:reveal={{
+				threshold: 0.0,
+				delay: 300,
+				duration: 500,
+				transition: 'blur',
+				blur: 20,
+				opacity: 0.5
+			}}
+		>
+			<h1 class="text-3xl text-error-content">현재 해당 채널의 운영이 중단된 상태입니다.</h1>
+		</div>
+	{/if}
+	<div class="divider" />
 	<!-- monthly video -->
 	{#if show}
 		<div

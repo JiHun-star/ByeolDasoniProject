@@ -348,7 +348,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-2xl text-info-content">기타 참여작 <small>(최신순)</small></h1>
+			<h1 class="text-2xl text-info-content">개인 참여작 <small>(최신순)</small></h1>
 			<br />
 			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow5} />
 			<br />
