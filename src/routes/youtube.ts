@@ -1,6 +1,6 @@
-//개인 작업물
+//개인 작업물 한국어
 
-export const etcyt = [
+export const etcytkr = [
 	{
 		name: '쥴리에타의 드레스 업 OST',
 		src: 'R7UITOnkFDI'
@@ -132,6 +132,66 @@ export const etcyt = [
 	{
 		name: '비명',
 		src: 'jOIT3lp53NM'
+	}
+];
+
+//개인 작업물 일본어
+export const etcytjp = [
+	{
+		name: '５月、咲いた花',
+		src: '9aPibznuHJ4?si=Y7ADA91xuARsZebt'
+	},
+	{
+		name: '二度目の花火',
+		src: 'oWWsg21DSN0?si=Ge2s5NH8VBGMpeLf'
+	},
+	{
+		name: 'ひぐらしと弔の夏',
+		src: '-7qZpLt_sIc?si=P0HRTMJuE69R5wrH'
+	},
+	{
+		name: '左利きラバーズ',
+		src: 'WtvvWv3InQY?si=IcA7A7abtOKzo_kh'
+	},
+	{
+		name: '紫の底',
+		src: 'dn6nMf00Ijg?si=P-arHzfMmHdmPvzM'
+	},
+	{
+		name: '一千番の花',
+		src: 'Oi_z0y-Ib4g?si=URVv9y3QR-F7hIdj'
+	},
+	{
+		name: 'だから君がキライ',
+		src: 'zgeYwsgbcSU?si=23r6fycNSg67zlVd'
+	},
+	{
+		name: 'Scrambled Ego',
+		src: 'mKer2Evsmmw?si=iTK0Gz0okx4RvTid'
+	},
+	{
+		name: '幼なじみ',
+		src: 'YPKwWaa0qp0?si=gscA5wKe71h90giQ'
+	},
+	{
+		name: '僕らのシルシ',
+		src: 'x6jfO069ziY?si=yRsYxnANYtLzE7Ek'
+	},
+	{
+		name: '不可視線相のパノラマ',
+		src: 's948O77TOcY?si=4_43wWDNgqXNDpz9'
+	},
+	{
+		name: '情性欠如',
+		src: 'X8GWzpHuU-s?si=XE31C4ilVGUUXn_Q'
+	},
+	{
+		name: 'スツロベーリ',
+		src: 'ytxqJYgJelg?si=AJKfQdKiHjDcMkuu'
+	},
+	{
+		name: '鬼花',
+		src: 'iXNg_fBUyHk?si=bs9m4yKg04CI7gsy'
 	}
 ];
 

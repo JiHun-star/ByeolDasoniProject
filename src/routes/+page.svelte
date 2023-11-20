@@ -11,7 +11,7 @@
 	});
 
 	//store
-	import { winterflower, byeolbada, meika, etcyt } from './youtube';
+	import { winterflower, byeolbada, meika, etcytkr, etcytjp } from './youtube';
 
 	//toggle
 	let toggleshow1 = false;
@@ -19,6 +19,7 @@
 	let toggleshow3 = false;
 	let toggleshow4 = false;
 	let toggleshow5 = false;
+	let toggleshow6 = false;
 
 	//tab-active
 	import { count } from './+page';
@@ -335,7 +336,7 @@
 		</div>
 	{/if}
 	<div class="divider" />
-	<!-- 기타 작업물 -->
+	<!-- 기타 작업물 한국어 -->
 	{#if show}
 		<div
 			class="grid card bg-warning rounded-box place-items-center shadow-2xl"
@@ -348,12 +349,47 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-2xl text-info-content">개인 참여작 <small>(최신순)</small></h1>
+			<h1 class="text-2xl text-info-content">개인 참여작 - 한국어<br /><small>(최신순)</small></h1>
 			<br />
 			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow5} />
 			<br />
 			{#if toggleshow5}
-				{#each etcyt as yt}
+				{#each etcytkr as yt}
+					<!-- content here -->
+					<iframe
+						src="https://www.youtube.com/embed/{yt.src}"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+						use:reveal={{ transition: 'fly' }}
+					/>
+					<br />
+					<h2>〈 {yt.name} 〉</h2>
+				{/each}
+			{/if}
+		</div>
+	{/if}
+	<div class="divider" />
+	<!-- 기타 작업물 일본어 -->
+	{#if show}
+		<div
+			class="grid card bg-warning rounded-box place-items-center shadow-2xl"
+			use:reveal={{
+				threshold: 0.0,
+				delay: 300,
+				duration: 500,
+				transition: 'blur',
+				blur: 20,
+				opacity: 0.5
+			}}
+		>
+			<h1 class="text-2xl text-info-content">개인 참여작- 일본어<br /><small>(최신순)</small></h1>
+			<br />
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow6} />
+			<br />
+			{#if toggleshow6}
+				{#each etcytjp as yt}
 					<!-- content here -->
 					<iframe
 						src="https://www.youtube.com/embed/{yt.src}"
