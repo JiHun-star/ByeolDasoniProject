@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: 'Mittens',
+		src: 'uTA91_By4MA?si=tS2f46KuZWE5REQ9'
+	},
+	{
 		name: '쥴리에타의 드레스 업 OST',
 		src: 'R7UITOnkFDI'
 	},
