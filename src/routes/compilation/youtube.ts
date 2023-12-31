@@ -2,6 +2,10 @@
 
 export const compilations = [
 	{
+		name: '빈칸합작 (2023)'
+		src: 'i7S5gq1oonY?si=-55KAJ-LWKS9BsCH'
+	},
+	{
 		name: '꽃말합작 (2023)',
 		src: 'G_Ep5CfoQ7I'
 	},
