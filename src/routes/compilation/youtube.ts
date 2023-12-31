@@ -2,7 +2,7 @@
 
 export const compilations = [
 	{
-		name: '빈칸합작 (2023)'
+		name: '빈 칸 (2023)'
 		src: 'i7S5gq1oonY?si=-55KAJ-LWKS9BsCH'
 	},
 	{
