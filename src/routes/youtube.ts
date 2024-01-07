@@ -6,10 +6,6 @@ export const etcytkr = [
 		src: 'uTA91_By4MA?si=tS2f46KuZWE5REQ9'
 	},
 	{
-		name: '쥴리에타의 드레스 업 OST',
-		src: 'R7UITOnkFDI'
-	},
-	{
 		name: '함은연가',
 		src: 'mDTs1ud3jJI'
 	},
