@@ -209,8 +209,13 @@ export const winterflower = [
 	},
 	{
 		name: '마음에도 없는',
-		src: 'TpjhBqkEKYI?si=jljb73WdzaWCe9jg',
+		src: 'TpjhBqkEKYI',
 		linked: 'https://ltm.lnk.to/LTD230902'
+	},
+	{
+		name: '누전',
+		src: '-JBiInrihvs',
+		linked: 'https://ltm.lnk.to/LTD240110'
 	}
 ];
 
