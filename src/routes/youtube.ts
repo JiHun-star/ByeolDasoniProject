@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '해후',
+		src: 'P6DRHxOAW7A?si=OHk_6NKVfgCjR3b8'
+	},
+	{
 		name: 'Mittens',
 		src: 'uTA91_By4MA?si=tS2f46KuZWE5REQ9'
 	},
