@@ -142,6 +142,10 @@ export const etcytkr = [
 //개인 작업물 일본어
 export const etcytjp = [
 	{
+		name: 'メイズ デイズ',
+		src: '8i1zWa5YbdQ?si=FOKgC4i5k6Z6EUo7'
+	},
+	{
 		name: '鯨上のアジサイ',
 		src: 'jyCh8KzL8kg?si=dkFrXBQIrr62NLyU'
 	},
