@@ -2,7 +2,7 @@
 
 export const etcytkr = [
 	{
-		name: '오늘은 따듯하게 잠들고싶어',
+		name: '오늘은 따듯하게 잠들고 싶어',
 		src: 'd-As6-96Kgc?si=4evO3oNdQYdutW-9'
 	},
 	{
