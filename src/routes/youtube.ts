@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '오늘은 따듯하게 잠들고싶어',
+		src: 'd-As6-96Kgc?si=4evO3oNdQYdutW-9'
+	},
+	{
 		name: '해후',
 		src: 'P6DRHxOAW7A?si=OHk_6NKVfgCjR3b8'
 	},
