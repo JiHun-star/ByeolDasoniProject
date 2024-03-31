@@ -3,7 +3,7 @@
 export const etcytkr = [
 	{
 		name: 'lost last',
-		arc: '512y-BsgTzg?si=7TdCbqNXUsRzf1H_'
+		src: '512y-BsgTzg?si=7TdCbqNXUsRzf1H_'
 	},
 	{
 		name: '오늘은 따듯하게 잠들고 싶어',
