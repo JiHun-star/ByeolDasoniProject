@@ -6,6 +6,10 @@ export const etcytkr = [
 		src: '512y-BsgTzg?si=7TdCbqNXUsRzf1H_'
 	},
 	{
+		name: '침수도시엔딩',
+		src: 'ALpiJ8VC8OY?si=844Yk2rK197WwXdk'
+	},
+	{
 		name: '오늘은 따듯하게 잠들고 싶어',
 		src: 'd-As6-96Kgc?si=4evO3oNdQYdutW-9'
 	},
