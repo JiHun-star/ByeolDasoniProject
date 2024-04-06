@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '봄에 지는 꽃',
+		src: '2mZ5Wx2yMMU?si=os9QP09RAjpIDjXD'
+	},
+	{
 		name: 'lost last',
 		src: '512y-BsgTzg?si=7TdCbqNXUsRzf1H_'
 	},
