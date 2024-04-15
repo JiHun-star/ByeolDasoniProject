@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: 'WILDLIFE SANCTUARY',
+		src: '0uNiPNGh_DI?si=4POSVVK9-b9Ildaq'
+	},
+	{
 		name: '타인',
 		src: 'BsI4fcsRc3c?si=ZfVWmyZfA0SBLQfU'
 	},
