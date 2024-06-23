@@ -11,15 +11,12 @@
 	});
 
 	//store
-	import { winterflower, byeolbada, meika, etcytkr, etcytjp } from './youtube';
+	import { etcytkr, etcytjp } from './youtube';
 
 	//toggle
 	let toggleshow1 = false;
-	let toggleshow2 = true;
+	let toggleshow2 = false;
 	let toggleshow3 = false;
-	let toggleshow4 = false;
-	let toggleshow5 = false;
-	let toggleshow6 = false;
 
 	//tab-active
 	import { count } from './+page';
@@ -183,6 +180,32 @@
 		</div>
 	{/if}
 	<div class="divider" />
+	<!-- 설명 -->
+	{#if show}
+		<div
+			class="grid card bg-success rounded-box place-items-center shadow-2xl"
+			use:reveal={{
+				threshold: 0.0,
+				delay: 300,
+				duration: 500,
+				transition: 'blur',
+				blur: 20,
+				opacity: 0.5
+			}}
+		>
+			<h1 class="text-3xl text-info-content uppercase">❗NEW❗</h1>
+			<br />
+			<iframe
+				src="https://www.youtube.com/embed/ttzv_uBlvXE?si=fWRTKzASLA2eShXL"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+				use:reveal={{ transition: 'fly' }}
+			/>
+		</div>
+	{/if}
+	<div class="divider" />
 	<!-- awords -->
 	{#if show}
 		<div
@@ -230,111 +253,6 @@
 		</div>
 	{/if}
 	<div class="divider" />
-	<!-- 겨울이 있던 꽃 -->
-	{#if show}
-		<div
-			class="grid card bg-secondary-content rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<h1 class="text-2xl text-info-content">겨울이 있던 꽃</h1>
-			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow2} />
-			{#if toggleshow2}
-				{#each winterflower as yt}
-					<!-- content here -->
-					<iframe
-						src="https://www.youtube.com/embed/{yt.src}"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-						use:reveal={{ transition: 'fly' }}
-					/>
-					<br />
-					<h2>〈 {yt.name} 〉</h2>
-					<a href={yt.linked} target="_blank" title="음원 스트리밍 들으러가기"
-						><i class="fa-solid fa-music" /></a
-					>
-				{/each}
-			{/if}
-		</div>
-	{/if}
-	<div class="divider" />
-	<!-- 별의 바다에 가라앉고 있어 -->
-	{#if show}
-		<div
-			class="grid card bg-secondary-content rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<h1 class="text-2xl text-info-content">별의 바다에 가라앉고 있어</h1>
-			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow3} />
-			{#if toggleshow3}
-				{#each byeolbada as yt}
-					<!-- content here -->
-					<iframe
-						src="https://www.youtube.com/embed/{yt.src}"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-						use:reveal={{ transition: 'fly' }}
-					/>
-					<br />
-					<h2>〈 {yt.name} 〉</h2>
-				{/each}
-			{/if}
-		</div>
-	{/if}
-	<div class="divider" />
-	<!-- 메이카 프로젝트 -->
-	{#if show}
-		<div
-			class="grid card bg-secondary-content rounded-box place-items-center shadow-2xl"
-			use:reveal={{
-				threshold: 0.0,
-				delay: 300,
-				duration: 500,
-				transition: 'blur',
-				blur: 20,
-				opacity: 0.5
-			}}
-		>
-			<h1 class="text-2xl text-info-content">메이카 프로젝트</h1>
-			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow4} />
-			{#if toggleshow4}
-				{#each meika as yt}
-					<!-- content here -->
-					<iframe
-						src="https://www.youtube.com/embed/{yt.src}"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-						use:reveal={{ transition: 'fly' }}
-					/>
-					<br />
-					<h2>〈 {yt.name} 〉</h2>
-				{/each}
-			{/if}
-		</div>
-	{/if}
-	<div class="divider" />
 	<!-- 기타 작업물 한국어 -->
 	{#if show}
 		<div
@@ -350,9 +268,9 @@
 		>
 			<h1 class="text-2xl text-info-content">개인 참여작 - 한국어<br /><small>(최신순)</small></h1>
 			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow5} />
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow2} />
 			<br />
-			{#if toggleshow5}
+			{#if toggleshow2}
 				{#each etcytkr as yt}
 					<!-- content here -->
 					<iframe
@@ -385,9 +303,9 @@
 		>
 			<h1 class="text-2xl text-info-content">개인 참여작- 일본어<br /><small>(최신순)</small></h1>
 			<br />
-			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow6} />
+			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow3} />
 			<br />
-			{#if toggleshow6}
+			{#if toggleshow3}
 				{#each etcytjp as yt}
 					<!-- content here -->
 					<iframe

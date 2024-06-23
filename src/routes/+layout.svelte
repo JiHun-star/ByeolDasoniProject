@@ -13,7 +13,7 @@
 	<header>
 		<nav class="tabs">
 			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 1}>Portfolio</a>
-			<!-- <a href="/voice" class="tab tab-bordered" class:tab-active={tabActive === 2}>VO!CE</a> -->
+			<a href="/team" class="tab tab-bordered" class:tab-active={tabActive === 2}>Team</a>
 			<a href="/compilation" class="tab tab-bordered" class:tab-active={tabActive === 3}
 				>Compilation</a
 			>
