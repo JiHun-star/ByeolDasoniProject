@@ -266,7 +266,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-2xl text-info-content">개인 참여작 - 한국어<br /><small>(최신순)</small></h1>
+			<h1 class="text-2xl text-info-content">한국어 작사 작업물<br /><small>(최신순)</small></h1>
 			<br />
 			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow2} />
 			<br />
@@ -301,7 +301,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-2xl text-info-content">개인 참여작- 일본어<br /><small>(최신순)</small></h1>
+			<h1 class="text-2xl text-info-content">일본어 작사 작업물<br /><small>(최신순)</small></h1>
 			<br />
 			<input type="checkbox" class="toggle toggle-neutral" bind:checked={toggleshow3} />
 			<br />
