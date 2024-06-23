@@ -183,7 +183,7 @@
 	<!-- 설명 -->
 	{#if show}
 		<div
-			class="grid card bg-success rounded-box place-items-center shadow-2xl"
+			class="grid card bg-neutral-content rounded-box place-items-center shadow-2xl"
 			use:reveal={{
 				threshold: 0.0,
 				delay: 300,

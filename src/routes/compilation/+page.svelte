@@ -27,7 +27,7 @@
 	<!-- 설명 -->
 	{#if show}
 		<div
-			class="grid card bg-success rounded-box place-items-center shadow-2xl"
+			class="grid card bg-zinc-400 rounded-box place-items-center shadow-2xl"
 			use:reveal={{
 				threshold: 0.0,
 				delay: 300,
@@ -37,7 +37,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-3xl text-info-content uppercase">Compilation</h1>
+			<h1 class="text-3xl uppercase">Compilation</h1>
 			<br />
 			<h4>이 페이지는 별다소니가 기획 및 주최한 컴필레이션 합작을 모아두는 곳입니다.</h4>
 		</div>
