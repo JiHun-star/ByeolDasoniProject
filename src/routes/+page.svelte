@@ -154,7 +154,7 @@
 									활동(유튜브 영상 업로드, 사운드 클라우드 업로드 등)</b
 								>이 이에 해당됩니다.
 							</p>
-							<h3 class="text-md font-bold">가격 : 0원~100,000원 (자유 후원)</h3>
+							<h3 class="text-md font-bold">가격 : 30,000원~100,000원 (자유 후원)</h3>
 							<div class="divider" />
 							<h3 class="text-lg font-bold">사용 범위 : 영리적 사용(저작권 양도 X)</h3>
 							<p class="py-4 indent-2">
