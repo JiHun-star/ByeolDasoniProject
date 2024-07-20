@@ -170,6 +170,10 @@ export const etcytkr = [
 //개인 작업물 일본어
 export const etcytjp = [
 	{
+		name: '衆星になれなかったわ',
+		src: 'Ws1D5YKll0o?si=RaMZwBaHRw2JXPCV'
+	},
+	{
 		name: 'メイズ デイズ',
 		src: '8i1zWa5YbdQ?si=FOKgC4i5k6Z6EUo7'
 	},
