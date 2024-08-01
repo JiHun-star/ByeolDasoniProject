@@ -97,6 +97,7 @@
 					</p>
 					<p>
 						<br /> ▼ 외부 앨범 참여 목록 ▼<br />
+						<br />💫Digital Singleㅣ"Starsign" 참여
 						<br />🍀Digital Singleㅣ"괜찮아 괜찮아" 참여
 						<br />📞Digital Singleㅣ"Phone Booth" 참여
 						<br />🎉CDㅣ"Hello, space!-UNI 5th Anniversary Album-" 참여
