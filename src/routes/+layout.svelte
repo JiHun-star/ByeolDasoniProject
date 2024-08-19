@@ -17,6 +17,9 @@
 			<a href="/compilation" class="tab tab-bordered" class:tab-active={tabActive === 3}
 				>Compilation</a
 			>
+			<a href="/stellarplata" class="tab tab-bordered" class:tab-active={tabActive === 4}
+				>StellarPlata</a
+			>
 		</nav>
 	</header>
 
