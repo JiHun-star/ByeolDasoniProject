@@ -69,7 +69,7 @@
 					lazyLoad: 'nearby',
 					preloadPages: 1,
 					arrows: false,
-					pagination: true,
+					pagination: false,
 					resetProgress: false
 				}}
 			>
