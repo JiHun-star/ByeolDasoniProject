@@ -2,6 +2,10 @@
 
 export const compilations = [
 	{
+		name: 'SEEUNI the ROCK ! (2024)',
+		src: 'LVDCMefUGc8?si=8T1LEnIwRO8MCP9R'
+	},
+	{
 		name: '빈 칸 (2023)',
 		src: 'i7S5gq1oonY?si=-55KAJ-LWKS9BsCH'
 	},
