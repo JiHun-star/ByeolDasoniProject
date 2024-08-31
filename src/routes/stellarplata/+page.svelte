@@ -54,30 +54,28 @@
 				><i class="fa-brands fa-youtube" />
 				<b>&nbsp;유튜브 채널 바로가기</b>
 			</a>
-			<br />
-			<article>
-				<ul>
-					<li class="text-xl">
-						Stellar Pick ! : 한국 보카로 신곡 중에서 엄선하여 추천해 드립니다.
-					</li>
-					<li class="text-xl">
-						Shout-out STAR ★ : 5곡으로 한국 보카로 프로듀서 분들을 소개합니다.
-					</li>
-				</ul>
-			</article>
+			<br /><br />
+
 			<div class="diff aspect-[16/9]">
 				<div class="diff-item-1">
-					<div
-						class="bg-primary text-primary-content grid place-content-center text-9xl font-black"
-					>
-						DAISY
+					<div class="grid place-content-center">
+						<h1 class="diffh1">Shout-out STAR ★</h1>
+						<small class="diffsmall">
+							다섯 곡으로<br />한국 보카로 프로듀서를 소개합니다.
+						</small>
 					</div>
 				</div>
 				<div class="diff-item-2">
-					<div class="bg-base-200 grid place-content-center text-9xl font-black">DAISY</div>
+					<div class="grid place-content-center">
+						<h1 class="diffh1">Stellar Pick !</h1>
+						<small class="diffsmall">
+							한국 보카로 신곡을<br />스텔라플라타에서 엄선하여 소개합니다.
+						</small>
+					</div>
 				</div>
 				<div class="diff-resizer" />
 			</div>
+			<br /><br />
 		</div>
 	{/if}
 </section>
@@ -107,9 +105,20 @@
 		margin: 0 10px;
 	}
 
-	@media all and (min-width: 1024px) {
-		iframe {
-			width: 70%;
-		}
+	.diff {
+		background-color: #23293f;
+	}
+
+	.diff-item-2 {
+		background-color: #f8dc4c;
+		color: #23293f;
+	}
+
+	.diff-item-1 {
+		color: #fff;
+	}
+
+	.diffh1 {
+		font-size: 4vw;
 	}
 </style>
