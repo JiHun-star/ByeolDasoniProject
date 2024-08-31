@@ -14,10 +14,6 @@
 	onMount(() => {
 		count.set(4);
 	});
-
-	//Svelte-Splide
-	import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
-	import '@splidejs/svelte-splide/css/themes/splide-sea-green.min.css';
 </script>
 
 <svelte:head>
@@ -48,7 +44,7 @@
 			<br /><br />
 			<p>'StellarPlata (스텔라플라타)'는</p>
 			<br />
-			<p>한국의 보카로/음합엔 프로듀서의 창작활동을 응원합니다!</p>
+			<p>한국의 보카로 (음합엔) 프로듀서의 창작활동을 응원합니다!</p>
 			<br /><br />
 			<a
 				href="https://www.youtube.com/@StellarPlata?sub_confirmation=1"
@@ -59,29 +55,16 @@
 				<b>&nbsp;유튜브 채널 바로가기</b>
 			</a>
 			<br />
-			<Splide
-				hasTrack={false}
-				aria-label="Members"
-				options={{
-					perPage: 1,
-					type: 'loop',
-					autoplay: true,
-					lazyLoad: 'nearby',
-					preloadPages: 1,
-					arrows: false,
-					pagination: false,
-					resetProgress: false
-				}}
-			>
-				<SplideTrack>
-					<SplideSlide><p class="SplideSlideBox">준비중 입니다</p></SplideSlide>
-					<SplideSlide><p class="SplideSlideBox">준비중 입니다</p></SplideSlide>
-					<SplideSlide><p class="SplideSlideBox">준비중 입니다</p></SplideSlide>
-				</SplideTrack>
-				<div class="splide__progress">
-					<div class="splide__progress__bar" />
-				</div>
-			</Splide>
+			<article>
+				<ul>
+					<li class="text-xl">
+						Stellar Pick ! : 한국 보카로 신곡 중에서 엄선하여 추천해 드립니다.
+					</li>
+					<li class="text-xl">
+						Shout-out STAR ★ : 5곡으로 한국 보카로 프로듀서 분들을 소개합니다.
+					</li>
+				</ul>
+			</article>
 		</div>
 	{/if}
 </section>
@@ -97,22 +80,23 @@
 		margin: 0 auto;
 	}
 
+	.headImg {
+		margin: 0 auto;
+		width: 95%;
+	}
+
 	.link-error {
 		font-size: 16px;
 		text-decoration: underline;
 	}
 
-	.SplideSlideBox {
-		background-color: antiquewhite;
+	li {
+		margin: 0 10px;
 	}
 
-	.splide__progress {
-		background: #23293f;
-	}
-
-	.splide__progress__bar {
-		background: #f8dc4c;
-		height: 2px;
-		width: 0;
+	@media all and (min-width: 1024px) {
+		iframe {
+			width: 70%;
+		}
 	}
 </style>
