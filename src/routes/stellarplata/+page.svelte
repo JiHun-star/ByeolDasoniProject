@@ -43,9 +43,9 @@
 				/>
 			</picture>
 			<br /><br />
-			<p>'StellarPlata (스텔라플라타)'는</p>
+			<p>'StellarPlata (스텔라플라타)' 는</p>
 			<br />
-			<p>한국의 보카로 (음합엔) 프로듀서의 창작활동을 응원합니다!</p>
+			<p>한국의 보카로 (음합엔) 프로듀서의 창작활동을 응원합니다 !</p>
 			<br /><br />
 			<a
 				href="https://www.youtube.com/@StellarPlata?sub_confirmation=1"
