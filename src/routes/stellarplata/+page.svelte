@@ -55,7 +55,7 @@
 				><i class="fa-brands fa-youtube" />
 				<b>&nbsp;유튜브 채널 바로가기</b>
 			</a>
-			<br /><br />
+			<br /><br /><br /><br /><br />
 
 			<!-- diff -->
 			<div class="diff aspect-[16/9]">
@@ -77,7 +77,7 @@
 				</div>
 				<div class="diff-resizer" />
 			</div>
-			<br /><br />
+			<br /><br /><br /><br /><br />
 
 			<!-- album -->
 		</div>
