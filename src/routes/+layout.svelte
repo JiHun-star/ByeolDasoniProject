@@ -11,15 +11,15 @@
 
 <div class="app" id="app">
 	<header>
-		<nav class="tabs">
-			<a href="/" class="tab tab-bordered" class:tab-active={tabActive === 1}>Portfolio</a>
-			<a href="/team" class="tab tab-bordered" class:tab-active={tabActive === 2}>Team</a>
-			<a href="/compilation" class="tab tab-bordered" class:tab-active={tabActive === 3}
-				>Compilation</a
-			>
-			<a href="/stellarplata" class="tab tab-bordered" class:tab-active={tabActive === 4}
-				>StellarPlata</a
-			>
+		<nav role="tablist" class="tabs tabs-bordered">
+			<a href="/" role="tab" class="tab" class:tab-active={tabActive === 1}>Portfolio</a>
+			<a href="/team" role="tab" class="tab" class:tab-active={tabActive === 2}>Team</a>
+			<a href="/compilation" role="tab" class="tab" class:tab-active={tabActive === 3}>
+				Compilation
+			</a>
+			<a href="/stellarplata" role="tab" class="tab" class:tab-active={tabActive === 4}>
+				StellarPlata
+			</a>
 		</nav>
 	</header>
 
