@@ -33,6 +33,7 @@
 				opacity: 0.5
 			}}
 		>
+			<!-- title -->
 			<picture>
 				<img
 					src="/images/spheader.png"
@@ -56,6 +57,7 @@
 			</a>
 			<br /><br />
 
+			<!-- diff -->
 			<div class="diff aspect-[16/9]">
 				<div class="diff-item-1">
 					<div class="grid place-content-center">
@@ -76,6 +78,8 @@
 				<div class="diff-resizer" />
 			</div>
 			<br /><br />
+
+			<!-- album -->
 		</div>
 	{/if}
 </section>
@@ -99,10 +103,6 @@
 	.link-error {
 		font-size: 16px;
 		text-decoration: underline;
-	}
-
-	li {
-		margin: 0 10px;
 	}
 
 	.diff {
