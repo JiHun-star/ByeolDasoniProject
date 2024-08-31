@@ -80,6 +80,10 @@
 			<br /><br /><br /><br /><br />
 
 			<!-- album -->
+			<h1 class="text-3xl uppercase subh1">Album Project</h1>
+			<br /><br />
+			<p>한국을 대표하는 보카로 프로듀서 분들과 함께 컴필레이션 앨범을 제작합니다.</p>
+			<br /><br /><br /><br /><br />
 		</div>
 	{/if}
 </section>
@@ -120,5 +124,9 @@
 
 	.diffh1 {
 		font-size: 4vw;
+	}
+
+	.subh1 {
+		color: #23293f;
 	}
 </style>
