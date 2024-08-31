@@ -33,7 +33,7 @@
 	<!-- profile -->
 	{#if show}
 		<div
-			class="grid card bg-neutral-content rounded-box place-items-center shadow-2xl"
+			class="grid card bg-primary-content rounded-box place-items-center shadow-2xl"
 			use:reveal={{
 				threshold: 0.0,
 				delay: 100,
@@ -181,7 +181,7 @@
 		</div>
 	{/if}
 	<div class="divider" />
-	<!-- 설명 -->
+	<!-- 신곡 -->
 	{#if show}
 		<div
 			class="grid card bg-neutral-content rounded-box place-items-center shadow-2xl"
@@ -210,7 +210,7 @@
 	<!-- awords -->
 	{#if show}
 		<div
-			class="grid card bg-accent-content rounded-box place-items-center shadow-2xl"
+			class="grid card bg-error rounded-box place-items-center shadow-2xl"
 			use:reveal={{
 				threshold: 0.0,
 				delay: 300,
