@@ -106,16 +106,16 @@
 	}
 
 	.diff {
-		background-color: #23293f;
+		background-color: #f8dc4c;
 	}
 
 	.diff-item-2 {
-		background-color: #f8dc4c;
-		color: #23293f;
+		background-color: #23293f;
+		color: #fff;
 	}
 
 	.diff-item-1 {
-		color: #fff;
+		color: #23293f;
 	}
 
 	.diffh1 {
