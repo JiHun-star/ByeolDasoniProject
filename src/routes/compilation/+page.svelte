@@ -37,7 +37,7 @@
 				opacity: 0.5
 			}}
 		>
-			<h1 class="text-3xl uppercase">Compilation</h1>
+			<h1 class="text-3xl uppercase text-info-content">Compilation</h1>
 			<br />
 			<h4>이 페이지는 별다소니가 기획 및 주최한 컴필레이션 합작을 모아두는 곳입니다.</h4>
 		</div>
@@ -58,7 +58,7 @@
 				}}
 			>
 				<!-- content here -->
-				<h1 class="text-2xl">{yt.name}</h1>
+				<h1 class="text-2xl text-info-content">{yt.name}</h1>
 
 				<iframe
 					src="https://www.youtube.com/embed/{yt.src}"

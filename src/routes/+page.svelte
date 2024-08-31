@@ -106,7 +106,7 @@
 					</p>
 					<br />
 					<!-- The button to open modal -->
-					<label for="my-modal-4" class="modalbtn btn text-lg shadow-md">
+					<label for="my-modal-4" class="modalbtn btn text-lg shadow-md bg-base-content text-white">
 						의뢰 가격 및 주의사항
 					</label>
 
