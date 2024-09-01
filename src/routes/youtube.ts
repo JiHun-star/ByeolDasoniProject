@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '여름의 허물',
+		src: 'V5cWfHVWaWk?si=OOQloaqACQ3B9ElG'
+	},
+	{
 		name: 'AmA',
 		src: 'ttzv_uBlvXE?si=F_fvOx1WelTSIRuj'
 	},
