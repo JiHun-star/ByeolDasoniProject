@@ -14,6 +14,25 @@
 	onMount(() => {
 		count.set(4);
 	});
+
+	//Splide
+	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+	import '@splidejs/svelte-splide/css';
+
+	const splideOpt = {
+		type: 'slide',
+		rewind: true,
+		width: 800,
+		gap: '1rem',
+		perPage: 1,
+		start: 0,
+		autoplay: true,
+		interval: 3000,
+		wheel: true,
+		snap: true,
+		arrows: false,
+		pagination: false
+	};
 </script>
 
 <svelte:head>
@@ -84,6 +103,25 @@
 			<br /><br />
 			<p>한국을 대표하는 보카로 프로듀서 분들과 함께 컴필레이션 앨범을 제작합니다.</p>
 			<br /><br /><br /><br /><br />
+			<!--
+			<Splide aria-label="splideImg" options={splideOpt}>
+				<SplideSlide>
+					<img src="img/sample1.jpg" alt="Image 1" />
+				</SplideSlide>
+				<SplideSlide>
+					<img src="img/sample2.jpg" alt="Image 2" />
+				</SplideSlide>
+				<SplideSlide>
+					<img src="img/sample3.png" alt="Image 3" />
+				</SplideSlide>
+				<SplideSlide>
+					<img src="img/sample4.jpg" alt="Image 4" />
+				</SplideSlide>
+				<SplideSlide>
+					<img src="img/sample5.gif" alt="Image 5" />
+				</SplideSlide>
+			</Splide>
+			-->
 		</div>
 	{/if}
 </section>

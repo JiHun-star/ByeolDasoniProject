@@ -39,5 +39,7 @@
 		"vite": "^3.1.0"
 	},
 	"type": "module",
-	"dependencies": {}
+	"dependencies": {
+		"@splidejs/svelte-splide": "^0.2.9"
+	}
 }
