@@ -15,6 +15,11 @@ export const winterflower = [
 		name: '누전',
 		src: '-JBiInrihvs',
 		linked: 'https://ltm.lnk.to/LTD240110'
+	},
+	{
+		name: '꽃이 피었던 계절',
+		src: 'GCoUeJBkPIM',
+		linked: 'https://t.co/oHbdEB0HYy'
 	}
 ];
 
