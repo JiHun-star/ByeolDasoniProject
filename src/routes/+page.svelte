@@ -90,9 +90,12 @@
 					<br />
 					<p>
 						<br />창작의 별을 탐구하는 작사가 입니다.
-						<br /><a href="https://kre.pe/U1WP" rel="noreferrer" target="_blank"
-							><b>작사 의뢰 및 문의는 크레페를 이용해 주세요!</b></a
-						>
+						<br /><a href="https://kre.pe/U1WP" rel="noreferrer" target="_blank">
+							<b>작사 의뢰 및 문의는 크레페를 이용해 주세요!</b>
+							<picture>
+								<img src="/images/crepe.jpg" alt="프로필 사진" class="crepeImg" />
+							</picture>
+						</a>
 						<br />
 						<br />❄️'겨울이 있던 꽃' 팀장
 						<br />✨'별의 바다에 가라앉고 있어' 팀장 (활동 종료)
@@ -345,6 +348,12 @@
 
 	.profileImg {
 		width: 180px;
+		border-radius: 15%;
+	}
+
+	.crepeImg {
+		display: inline;
+		width: 25px;
 		border-radius: 15%;
 	}
 
