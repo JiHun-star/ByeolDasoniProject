@@ -67,8 +67,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://twitter.com/rlarkspx" rel="noreferrer" target="_blank">
-								<i class="fa-brands fa-twitter text-2xl" />
+							<a href="https://bsky.app/profile/bdsn.bsky.social" rel="noreferrer" target="_blank">
+								<i class="fa-brands fa-bluesky text-2xl" />
 							</a>
 						</li>
 						<li>
