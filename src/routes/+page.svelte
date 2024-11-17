@@ -67,16 +67,6 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://bsky.app/profile/bdsn.bsky.social" rel="noreferrer" target="_blank">
-								<i class="fa-brands fa-bluesky text-2xl" />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/byeol_dasoni" rel="noreferrer" target="_blank">
-								<i class="fa-brands fa-square-instagram text-2xl" />
-							</a>
-						</li>
-						<li>
 							<button
 								use:copy={`byeoldasoni`}
 								on:svelte-copy={(event) => alert('Copied : ' + event.detail)}
