@@ -2,6 +2,10 @@
 
 export const compilations = [
 	{
+		name: '잔혹동화 (2024)',
+		src: 'oEuVM7XEwQc?si=m1hXipgmi5KQzrQl'
+	},
+	{
 		name: 'SEEUNI the ROCK ! (2024)',
 		src: 'LVDCMefUGc8?si=8T1LEnIwRO8MCP9R'
 	},
