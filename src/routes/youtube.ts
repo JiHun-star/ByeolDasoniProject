@@ -2,10 +2,6 @@
 
 export const etcytkr = [
 	{
-		name: '낯선 요람',
-		src: 'Ir09TxDDOzI?si=_ihKY2z2BHIhRamk'
-	},
-	{
 		name: '여름의 허물',
 		src: 'V5cWfHVWaWk?si=OOQloaqACQ3B9ElG'
 	},
