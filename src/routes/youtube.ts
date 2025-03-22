@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '루피너스가 피는 별',
+		src: 'IKepbmq1X4Y?si=jwiuX0Q7YJ0NkxlG'
+	},
+	{
 		name: '여름의 허물',
 		src: 'V5cWfHVWaWk?si=OOQloaqACQ3B9ElG'
 	},

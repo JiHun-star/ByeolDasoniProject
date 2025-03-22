@@ -195,7 +195,7 @@
 			<h1 class="text-3xl text-info-content uppercase">❗NEW❗</h1>
 			<br />
 			<iframe
-				src="https://www.youtube.com/embed/V5cWfHVWaWk?si=nwWKzJhfWwEDEci3"
+				src="https://www.youtube.com/embed/IKepbmq1X4Y?si=jwiuX0Q7YJ0NkxlG"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
