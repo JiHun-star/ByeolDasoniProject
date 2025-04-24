@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: 'S.O.S',
+		src: 'HVQ3Ndl6Cmw?si=WzruovgV9j9k-Hhy'
+	},
+	{
 		name: '루피너스가 피는 별',
 		src: 'IKepbmq1X4Y?si=jwiuX0Q7YJ0NkxlG'
 	},
