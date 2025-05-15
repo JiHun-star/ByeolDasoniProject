@@ -62,6 +62,11 @@
 							</a>
 						</li>
 						<li>
+							<a href="https://x.com/ByeolDasoni" rel="noreferrer" target="_blank">
+								<i class="fa-brands fa-twitter text-2xl" />
+							</a>
+						</li>
+						<li>
 							<a href="https://byeol-dasoni.postype.com" rel="noreferrer" target="_blank">
 								<i class="fa-solid fa-paragraph fa-flip-horizontal text-2xl" />
 							</a>

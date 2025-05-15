@@ -42,7 +42,7 @@
 <section>
 	{#if show}
 		<div
-			class="grid card rounded-box place-items-center shadow-2xl"
+			class="grid card rounded-box place-items-center shadow-2xl containor"
 			use:reveal={{
 				threshold: 0.0,
 				delay: 300,
@@ -102,26 +102,28 @@
 			<h1 class="text-3xl uppercase subh1">Album Project</h1>
 			<br /><br />
 			<p>한국을 대표하는 보카로 프로듀서 분들과 함께 컴필레이션 앨범을 제작합니다.</p>
-			<br /><br /><br /><br /><br />
-			<!--
-			<Splide aria-label="splideImg" options={splideOpt}>
-				<SplideSlide>
-					<img src="img/sample1.jpg" alt="Image 1" />
-				</SplideSlide>
-				<SplideSlide>
-					<img src="img/sample2.jpg" alt="Image 2" />
-				</SplideSlide>
-				<SplideSlide>
-					<img src="img/sample3.png" alt="Image 3" />
-				</SplideSlide>
-				<SplideSlide>
-					<img src="img/sample4.jpg" alt="Image 4" />
-				</SplideSlide>
-				<SplideSlide>
-					<img src="img/sample5.gif" alt="Image 5" />
-				</SplideSlide>
-			</Splide>
-			-->
+			<br /><br />
+			<div class="flex flex-wrap gap-3">
+				<!-- cards -->
+				<div class="card bg-base-300 shadow-sm w-1/4">
+					<figure>
+						<img src="images/albumart1.jpg" alt="album 1" />
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title">메타걸즈</h2>
+						<p>한국 음합엔 작곡가X일러스트레이터 랜덤매칭 컴필레이션 앨범</p>
+						<div class="card-actions justify-end">
+							<a
+								href="https://smartstore.naver.com/hatsuneshop/search?q=%EB%A9%94%ED%83%80%EA%B1%B8%EC%A6%88"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<button class="btn btn-primary">Buy Now</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	{/if}
 </section>
@@ -131,7 +133,7 @@
 		padding: 8vh 0;
 	}
 
-	.card {
+	.containor {
 		width: 80vw;
 		padding: 50px 40px;
 		margin: 0 auto;
@@ -166,5 +168,15 @@
 
 	.subh1 {
 		color: #23293f;
+	}
+
+	.flex {
+		justify-content: center;
+	}
+
+	.btn {
+		background-color: #23293f;
+		border: 0;
+		color: #ffffff;
 	}
 </style>
