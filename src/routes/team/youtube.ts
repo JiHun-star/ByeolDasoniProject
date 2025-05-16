@@ -20,6 +20,11 @@ export const winterflower = [
 		name: '꽃이 피었던 계절',
 		src: 'GCoUeJBkPIM',
 		linked: 'https://t.co/oHbdEB0HYy'
+	},
+	{
+		name: '종이거울',
+		src: 'UlVb1wk2So4?si=7ElmqnPJoYe-O-Oa',
+		linked: 'https://ltm.lnk.to/LTD250506'
 	}
 ];
 
