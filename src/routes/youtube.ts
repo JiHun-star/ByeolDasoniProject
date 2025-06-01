@@ -2,6 +2,10 @@
 
 export const etcytkr = [
 	{
+		name: '좀생이별',
+		src: '7-PejeT_zIY?si=-Tq5g47_YfBFzMkq'
+	},
+	{
 		name: 'S.O.S',
 		src: 'HVQ3Ndl6Cmw?si=WzruovgV9j9k-Hhy'
 	},
