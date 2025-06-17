@@ -80,9 +80,9 @@
 			<div class="diff aspect-[16/9]">
 				<div class="diff-item-1">
 					<div class="grid place-content-center">
-						<h1 class="diffh1">Shout-out STAR ★</h1>
+						<h1 class="diffh1">Stellar Pick !</h1>
 						<small class="diffsmall">
-							다섯 곡으로<br />한국 보카로 프로듀서를 소개합니다.
+							한국 보카로 신곡을<br />스텔라플라타에서 엄선하여 소개합니다.
 						</small>
 					</div>
 				</div>
