@@ -2,6 +2,10 @@
 
 export const compilations = [
 	{
+		name: '빈 칸 (2025)',
+		src: 'mWP9Qj-gTQ4?si=N-gt7eDb_09A2219'
+	},
+	{
 		name: '잔혹동화 (2024)',
 		src: 'oEuVM7XEwQc?si=m1hXipgmi5KQzrQl'
 	},
