@@ -186,6 +186,10 @@ export const etcytkr = [
 //개인 작업물 일본어
 export const etcytjp = [
 	{
+		name: '星波',
+		src: '-dW-sbI_uFg?si=t9RgRjbImIQfpyVF'
+	},
+	{
 		name: '衆星になれなかったわ',
 		src: 'Ws1D5YKll0o?si=RaMZwBaHRw2JXPCV'
 	},
